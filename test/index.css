@@ -1,0 +1,1405 @@
+.element-product-detail {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.element-product-detail .div {
+    background-color: var(--white-500);
+    width: 1440px;
+    height: 3379px;
+    position: relative;
+}
+
+.element-product-detail .header {
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+}
+
+.element-product-detail .overlap {
+    position: absolute;
+    width: 785px;
+    height: 130px;
+    top: 20px;
+    left: 150px;
+}
+
+.element-product-detail .overlap-group {
+    position: absolute;
+    width: 747px;
+    height: 130px;
+    top: 0;
+    left: 0;
+}
+
+.element-product-detail .overlap-2 {
+    position: absolute;
+    width: 317px;
+    height: 122px;
+    top: 8px;
+    left: 0;
+}
+
+.element-product-detail .logo {
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    top: 18px;
+    left: 0;
+}
+
+.element-product-detail .logo-text {
+    position: absolute;
+    width: 179px;
+    height: 35px;
+    top: 0;
+    left: 0;
+}
+
+.element-product-detail .input {
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+    height: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 13px 16px;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    background-color: var(--graygray-5);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.element-product-detail .frame {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-top: -3px;
+    margin-bottom: -3px;
+}
+
+.element-product-detail .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.element-product-detail .menu-line-horizontal {
+    position: relative;
+    width: 12px;
+    height: 10px;
+    top: 7px;
+    left: 6px;
+    background-image: url(./img/combo-shape.svg);
+    background-size: 100% 100%;
+}
+
+.element-product-detail .text {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--dark-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.element-product-detail .frame-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 209px;
+}
+
+.element-product-detail .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 93px;
+    height: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 13px 16px;
+    position: relative;
+    border-radius: 10px 0px 0px 10px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-color: var(--graygray-20);
+}
+
+.element-product-detail .div-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 347px;
+    height: 50px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding: 13px 16px;
+    position: relative;
+    border: 1px solid;
+    border-color: var(--graygray-20);
+}
+
+.element-product-detail .text-2 {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    color: var(--darkdark-20);
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+.element-product-detail .button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 98px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    background-color: var(--primary-500);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.element-product-detail .text-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -11px;
+    margin-bottom: -9px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.element-product-detail .navbar {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: absolute;
+    top: 90px;
+    left: 347px;
+}
+
+.element-product-detail .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--dark-500);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.element-product-detail .div-2 {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top: 20px;
+    left: 1050px;
+}
+
+.element-product-detail .frame-4 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .cart-item {
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    top: -5px;
+    left: 102px;
+}
+
+.element-product-detail .overlap-group-2 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-color: var(--primary-500);
+    border-radius: 8px;
+}
+
+.element-product-detail .text-wrapper-3 {
+    position: absolute;
+    width: 6px;
+    height: 15px;
+    top: 1px;
+    left: 5px;
+    font-family: var(--label-bold-font-family);
+    font-weight: var(--label-bold-font-weight);
+    color: var(--white-500);
+    font-size: var(--label-bold-font-size);
+    text-align: center;
+    letter-spacing: var(--label-bold-letter-spacing);
+    line-height: var(--label-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--label-bold-font-style);
+}
+
+.element-product-detail .button-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 98px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    background-color: var(--primary-500);
+    border-radius: 10px;
+}
+
+.element-product-detail .product-detail {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.element-product-detail .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-2-regular-font-family);
+    font-weight: var(--body-2-regular-font-weight);
+    color: var(--dark-500);
+    font-size: var(--body-2-regular-font-size);
+    letter-spacing: var(--body-2-regular-letter-spacing);
+    line-height: var(--body-2-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--body-2-regular-font-style);
+}
+
+.element-product-detail .img-2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.element-product-detail .product-details {
+    position: relative;
+    width: 1148px;
+    height: 698px;
+    margin-right: -8px;
+}
+
+.element-product-detail .image-wrapper {
+    position: absolute;
+    width: 555px;
+    height: 555px;
+    top: 0;
+    left: 0;
+    background-color: var(--graygray-5);
+}
+
+.element-product-detail .image {
+    position: absolute;
+    width: 346px;
+    height: 420px;
+    top: 68px;
+    left: 105px;
+}
+
+.element-product-detail .img-wrapper {
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    top: 575px;
+    left: 0;
+    background-color: var(--graygray-5);
+}
+
+.element-product-detail .image-2 {
+    position: absolute;
+    width: 71px;
+    height: 86px;
+    top: 19px;
+    left: 26px;
+}
+
+.element-product-detail .overlap-3 {
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    top: 575px;
+    left: 143px;
+    background-color: var(--graygray-5);
+}
+
+.element-product-detail .overlap-group-3 {
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    top: 575px;
+    left: 286px;
+    background-color: var(--graygray-5);
+}
+
+.element-product-detail .overlap-4 {
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    top: 575px;
+    left: 429px;
+    background-color: var(--graygray-5);
+}
+
+.element-product-detail .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 339px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 375px;
+    left: 725px;
+    background-color: var(--primary-500);
+    border-radius: 10px;
+}
+
+.element-product-detail .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -8px;
+    margin-bottom: -6px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.element-product-detail .share {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 461px;
+    left: 585px;
+}
+
+.element-product-detail .text-wrapper-5 {
+    position: relative;
+    width: 555px;
+    margin-top: -1px;
+    font-family: var(--header-7-bold-font-family);
+    font-weight: var(--header-7-bold-font-weight);
+    color: var(--dark-500);
+    font-size: var(--header-7-bold-font-size);
+    letter-spacing: var(--header-7-bold-letter-spacing);
+    line-height: var(--header-7-bold-line-height);
+    font-style: var(--header-7-bold-font-style);
+}
+
+.element-product-detail .frame-5 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .huge-icon-social-wrapper {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: var(--graygray-20);
+}
+
+.element-product-detail .img-3 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.element-product-detail .huge-icon-health-wrapper {
+    display: flex;
+    width: 56px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 375px;
+    left: 1084px;
+    background-color: var(--graygray-5);
+    border-radius: 10px;
+}
+
+.element-product-detail .color {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    position: absolute;
+    top: 245px;
+    left: 585px;
+}
+
+.element-product-detail .text-wrapper-6 {
+    position: relative;
+    width: 262px;
+    margin-top: -1px;
+    font-family: var(--header-7-bold-font-family);
+    font-weight: var(--header-7-bold-font-weight);
+    color: var(--dark-500);
+    font-size: var(--header-7-bold-font-size);
+    letter-spacing: var(--header-7-bold-letter-spacing);
+    line-height: var(--header-7-bold-line-height);
+    font-style: var(--header-7-bold-font-style);
+}
+
+.element-product-detail .rectangle {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background-color: #bebec5;
+    border-radius: 4px;
+}
+
+.element-product-detail .rectangle-2 {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-optioncolor-option-4);
+    border-radius: 4px;
+}
+
+.element-product-detail .rectangle-3 {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background-color: var(--dark-500);
+    border-radius: 4px;
+}
+
+.element-product-detail .rectangle-4 {
+    position: relative;
+    width: 36px;
+    height: 36px;
+    background-color: var(--color-optioncolor-option-3);
+    border-radius: 4px;
+}
+
+.element-product-detail .text-wrapper-7 {
+    position: absolute;
+    top: 0;
+    left: 585px;
+    font-size: var(--header-4-bold-font-size);
+    line-height: var(--header-4-bold-line-height);
+    white-space: nowrap;
+    font-family: var(--header-4-bold-font-family);
+    font-weight: var(--header-4-bold-font-weight);
+    color: var(--dark-500);
+    letter-spacing: var(--header-4-bold-letter-spacing);
+    font-style: var(--header-4-bold-font-style);
+}
+
+.element-product-detail .frame-6 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 47px;
+    left: 585px;
+}
+
+.element-product-detail .frame-7 {
+    display: inline-flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.element-product-detail .text-wrapper-9 {
+    position: absolute;
+    top: 89px;
+    left: 585px;
+    font-family: var(--header-6-regular-font-family);
+    font-weight: var(--header-6-regular-font-weight);
+    color: var(--dark-500);
+    font-size: var(--header-6-regular-font-size);
+    letter-spacing: var(--header-6-regular-letter-spacing);
+    line-height: var(--header-6-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--header-6-regular-font-style);
+}
+
+.element-product-detail .huge-icon-interface-wrapper {
+    position: absolute;
+    width: 40px;
+    height: 56px;
+    top: 375px;
+    left: 585px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid;
+    border-color: var(--graygray-20);
+}
+
+.element-product-detail .huge-icon-interface {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 15px;
+    left: 7px;
+}
+
+.element-product-detail .overlap-5 {
+    position: absolute;
+    width: 40px;
+    height: 56px;
+    top: 375px;
+    left: 625px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--graygray-20);
+}
+
+.element-product-detail .text-wrapper-10 {
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--dark-500);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.element-product-detail .overlap-6 {
+    position: absolute;
+    width: 40px;
+    height: 56px;
+    top: 375px;
+    left: 665px;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid;
+    border-color: var(--graygray-20);
+}
+
+.element-product-detail .button-4 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 6px 10px;
+    position: absolute;
+    top: 0;
+    left: 1071px;
+    background-color: #3cd1391a;
+    border-radius: 4px;
+}
+
+.element-product-detail .button-5 {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -2px;
+    font-family: var(--caption-regular-font-family);
+    font-weight: var(--caption-regular-font-weight);
+    color: #3cd139;
+    font-size: var(--caption-regular-font-size);
+    letter-spacing: var(--caption-regular-letter-spacing);
+    line-height: var(--caption-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--caption-regular-font-style);
+}
+
+.element-product-detail .p {
+    position: absolute;
+    width: 555px;
+    top: 135px;
+    left: 585px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--dark-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.element-product-detail .div-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .tabbar {
+    position: relative;
+    width: 1140px;
+    height: 44px;
+}
+
+.element-product-detail .frame-8 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.element-product-detail .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--header-6-regular-font-family);
+    font-weight: var(--header-6-regular-font-weight);
+    color: var(--dark-500);
+    font-size: var(--header-6-regular-font-size);
+    letter-spacing: var(--header-6-regular-letter-spacing);
+    line-height: var(--header-6-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--header-6-regular-font-style);
+}
+
+.element-product-detail .text-wrapper-12 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--header-6-bold-font-family);
+    font-weight: var(--header-6-bold-font-weight);
+    color: var(--primary-500);
+    font-size: var(--header-6-bold-font-size);
+    letter-spacing: var(--header-6-bold-letter-spacing);
+    line-height: var(--header-6-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--header-6-bold-font-style);
+}
+
+.element-product-detail .overlap-group-4 {
+    position: absolute;
+    width: 1140px;
+    height: 3px;
+    top: 41px;
+    left: 0;
+}
+
+.element-product-detail .rectangle-5 {
+    position: absolute;
+    width: 1140px;
+    height: 1px;
+    top: 1px;
+    left: 0;
+    background-color: var(--graygray-20);
+}
+
+.element-product-detail .rectangle-6 {
+    position: absolute;
+    width: 87px;
+    height: 3px;
+    top: 0;
+    left: 414px;
+    background-color: var(--primary-500);
+}
+
+.element-product-detail .frame-9 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .text-wrapper-13 {
+    position: relative;
+    width: 1140px;
+    margin-top: -1px;
+    font-family: var(--header-6-bold-font-family);
+    font-weight: var(--header-6-bold-font-weight);
+    color: var(--dark-500);
+    font-size: var(--header-6-bold-font-size);
+    letter-spacing: var(--header-6-bold-letter-spacing);
+    line-height: var(--header-6-bold-line-height);
+    font-style: var(--header-6-bold-font-style);
+}
+
+.element-product-detail .frame-10 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .frame-11 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .ellipse {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.element-product-detail .frame-12 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .text-wrapper-14 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--dark-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.element-product-detail .frame-13 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .frame-14 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .text-wrapper-15 {
+    position: relative;
+    width: 959px;
+    margin-top: -1px;
+    font-family: var(--body-1-bold-font-family);
+    font-weight: var(--body-1-bold-font-weight);
+    color: var(--dark-500);
+    font-size: var(--body-1-bold-font-size);
+    letter-spacing: var(--body-1-bold-letter-spacing);
+    line-height: var(--body-1-bold-line-height);
+    font-style: var(--body-1-bold-font-style);
+}
+
+.element-product-detail .it-is-a-long {
+    position: relative;
+    width: 1138px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--dark-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.element-product-detail .review-by-electro {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-2-regular-font-family);
+    font-weight: var(--body-2-regular-font-weight);
+    color: transparent;
+    font-size: var(--body-2-regular-font-size);
+    letter-spacing: var(--body-2-regular-letter-spacing);
+    line-height: var(--body-2-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--body-2-regular-font-style);
+}
+
+.element-product-detail .span {
+    color: #a4a8ac;
+    font-family: var(--body-2-regular-font-family);
+    font-style: var(--body-2-regular-font-style);
+    font-weight: var(--body-2-regular-font-weight);
+    letter-spacing: var(--body-2-regular-letter-spacing);
+    line-height: var(--body-2-regular-line-height);
+    font-size: var(--body-2-regular-font-size);
+}
+
+.element-product-detail .text-wrapper-16 {
+    color: #0f1216;
+    font-family: var(--body-2-regular-font-family);
+    font-style: var(--body-2-regular-font-style);
+    font-weight: var(--body-2-regular-font-weight);
+    letter-spacing: var(--body-2-regular-letter-spacing);
+    line-height: var(--body-2-regular-line-height);
+    font-size: var(--body-2-regular-font-size);
+}
+
+.element-product-detail .rectangle-7 {
+    position: relative;
+    width: 1140px;
+    height: 1px;
+    background-color: var(--graygray-20);
+}
+
+.element-product-detail .div-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .text-wrapper-17 {
+    width: 1140px;
+    color: var(--dark-500);
+    position: relative;
+    margin-top: -1px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.element-product-detail .rectangle-8 {
+    position: relative;
+    width: 1px;
+    height: 20px;
+    background-color: var(--graygray-20);
+}
+
+.element-product-detail .input-2 {
+    position: relative;
+    width: 1140px;
+    height: 80px;
+}
+
+.element-product-detail .textbox {
+    position: absolute;
+    width: 1140px;
+    height: 56px;
+    top: 24px;
+    left: 0;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: var(--graygray-20);
+}
+
+.element-product-detail .text-3 {
+    position: absolute;
+    width: 1108px;
+    top: 12px;
+    left: 16px;
+    color: var(--graygray-80);
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.element-product-detail .label {
+    position: absolute;
+    width: 1140px;
+    top: 1px;
+    left: 0;
+    font-family: var(--caption-regular-font-family);
+    font-weight: var(--caption-regular-font-weight);
+    color: var(--dark-500);
+    font-size: var(--caption-regular-font-size);
+    letter-spacing: var(--caption-regular-letter-spacing);
+    line-height: var(--caption-regular-line-height);
+    font-style: var(--caption-regular-font-style);
+}
+
+.element-product-detail .frame-15 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .label-2 {
+    position: relative;
+    width: 1140px;
+    margin-top: -1px;
+    font-family: var(--caption-regular-font-family);
+    font-weight: var(--caption-regular-font-weight);
+    color: var(--dark-500);
+    font-size: var(--caption-regular-font-size);
+    letter-spacing: var(--caption-regular-letter-spacing);
+    line-height: var(--caption-regular-line-height);
+    font-style: var(--caption-regular-font-style);
+}
+
+.element-product-detail .input-3 {
+    position: relative;
+    width: 1140px;
+    height: 104px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: var(--graygray-20);
+}
+
+.element-product-detail .textarea {
+    position: absolute;
+    width: 1108px;
+    top: 15px;
+    left: 16px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--graygray-80);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.element-product-detail .drag-handle {
+    position: absolute;
+    width: 13px;
+    height: 14px;
+    top: 86px;
+    left: 1122px;
+    background-image: url(./img/drag-handle.svg);
+    background-size: 100% 100%;
+}
+
+.element-product-detail .button-6 {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 139px;
+    height: 56px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    position: relative;
+    background-color: var(--primary-500);
+    border-radius: 10px;
+}
+
+.element-product-detail .related-products {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    position: absolute;
+    top: 2339px;
+    left: 150px;
+}
+
+.element-product-detail .text-wrapper-18 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: var(--header-3-bold-font-family);
+    font-weight: var(--header-3-bold-font-weight);
+    color: var(--dark-500);
+    font-size: var(--header-3-bold-font-size);
+    letter-spacing: var(--header-3-bold-letter-spacing);
+    line-height: var(--header-3-bold-line-height);
+    font-style: var(--header-3-bold-font-style);
+}
+
+.element-product-detail .frame-16 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .group {
+    position: relative;
+    width: 262px;
+    height: 330px;
+    background-color: var(--graygray-5);
+}
+
+.element-product-detail .image-3 {
+    position: absolute;
+    width: 257px;
+    height: 294px;
+    top: 18px;
+    left: 0;
+    object-fit: cover;
+}
+
+.element-product-detail .frame-17 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .frame-18 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .text-wrapper-19 {
+    position: relative;
+    width: 230px;
+    margin-top: -1px;
+    font-size: var(--body-1-bold-font-size);
+    line-height: var(--body-1-bold-line-height);
+    font-family: var(--body-1-bold-font-family);
+    font-weight: var(--body-1-bold-font-weight);
+    color: var(--dark-500);
+    letter-spacing: var(--body-1-bold-letter-spacing);
+    font-style: var(--body-1-bold-font-style);
+}
+
+.element-product-detail .text-wrapper-20 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--dark-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.element-product-detail .image-4 {
+    position: absolute;
+    width: 257px;
+    height: 294px;
+    top: 18px;
+    left: 3px;
+    object-fit: cover;
+}
+
+.element-product-detail .image-5 {
+    position: absolute;
+    width: 257px;
+    height: 294px;
+    top: 18px;
+    left: 2px;
+    object-fit: cover;
+}
+
+.element-product-detail .footer {
+    position: absolute;
+    width: 1440px;
+    height: 387px;
+    top: 2992px;
+    left: 0;
+    background-color: var(--primary-500);
+}
+
+.element-product-detail .logo-text-2 {
+    position: absolute;
+    width: 203px;
+    height: 40px;
+    top: 30px;
+    left: 150px;
+}
+
+.element-product-detail .call {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+.element-product-detail .text-wrapper-21 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.element-product-detail .text-wrapper-22 {
+    position: absolute;
+    top: 340px;
+    left: 573px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white-500);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.element-product-detail .mail {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 146px;
+    left: 150px;
+}
+
+.element-product-detail .address {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 192px;
+    left: 150px;
+}
+
+.element-product-detail .element-parker-rd {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.element-product-detail .information {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 30px;
+    left: 504px;
+}
+
+.element-product-detail .text-wrapper-23 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-1-bold-font-family);
+    font-weight: var(--body-1-bold-font-weight);
+    color: var(--white-500);
+    font-size: var(--body-1-bold-font-size);
+    letter-spacing: var(--body-1-bold-letter-spacing);
+    line-height: var(--body-1-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--body-1-bold-font-style);
+}
+
+.element-product-detail .text-wrapper-24 {
+    position: relative;
+    width: fit-content;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.element-product-detail .service {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 30px;
+    left: 703px;
+}
+
+.element-product-detail .subscribe {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 30px;
+    left: 968px;
+}
+
+.element-product-detail .frame-19 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .text-wrapper-25 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white-500);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+
+.element-product-detail .mail-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 13px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--graygray-10);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.element-product-detail .frame-20 {
+    display: inline-flex;
+    align-items: center;
+    gap: 145px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.element-product-detail .rectangle-9 {
+    position: absolute;
+    width: 1140px;
+    height: 1px;
+    top: 324px;
+    left: 150px;
+    background-color: var(--graygray-20);
+}
+
+.element-product-detail .group-2 {
+    position: absolute;
+    width: 220px;
+    height: 24px;
+    top: 341px;
+    left: 150px;
+}
+
+.element-product-detail .frame-21 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    top: 341px;
+    left: 1178px;
+}

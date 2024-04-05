@@ -20,35 +20,7 @@ textarea,
 button {
     outline: 0;
 }
-.phone-number {
-    position: relative;
-    flex-shrink: 0;
-    flex-basis: auto;
-    color: #ffffff;
-    font-family: Montserrat, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 2;
-    margin-top: 100px;
-}
-.huge-icon {
-    flex-shrink: 0;
-    position: relative;
-    width: 24px;
-    height: 24px;
-    overflow: hidden;
-}
-.vector {
-    position: absolute;
-    margin-top: 200px;
-    width: 19.5px;
-    height: 19.5px;
-    background-size: 100% 100%;
-    z-index: 1;
-}
+
 .main-container {
     position: relative;
     width: 1440px;
@@ -93,7 +65,8 @@ button {
     height: 99.4%;
     top: 0;
     left: 0;
-    no-repeat: center;
+    background: url(img_7.png)
+    no-repeat center;
     background-size: 100% 100%;
     z-index: 3;
 }
@@ -322,4 +295,476 @@ button {
     white-space: nowrap;
     z-index: 31;
 }
-.subscribe {}
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 322px;
+    height: 166px;
+    top: 30px;
+    left: 968px;
+    z-index: 32;
+}
+.frame-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    z-index: 33;
+}
+.subscribe-7 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 34;
+}
+.email-notification {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 322px;
+    height: 60px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    z-index: 35;
+}
+.mail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 322px;
+    padding: 13px 16px 13px 16px;
+    background: rgba(165, 169, 172, 0.1);
+    z-index: 36;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.frame-8 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 145px;
+    position: relative;
+    width: 290px;
+    z-index: 37;
+}
+.frame-9 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 121px;
+    z-index: 38;
+}
+.gmail-icon {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background: url(img_1.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 39;
+    overflow: hidden;
+}
+.email-label {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 40;
+}
+.right-arrow {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background: url(img_3.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 41;
+    overflow: hidden;
+}
+.call {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 139px;
+    height: 30px;
+    top: 100px;
+    left: 150px;
+    z-index: 5;
+}
+.phone-icon {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 6;
+    overflow: hidden;
+}
+.vector {
+    position: relative;
+    width: 19.5px;
+    height: 19.5px;
+    margin: 2.25px 0 0 2.25px;
+    background: url(img.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 7;
+}
+.phone-number {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+}
+.mail-a {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 215px;
+    height: 30px;
+    top: 146px;
+    left: 150px;
+    z-index: 10;
+}
+.gmail-icon-b {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background: url(img_1.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 11;
+    overflow: hidden;
+}
+.email-input {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 12;
+}
+.address {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 251px;
+    height: 60px;
+    top: 192px;
+    left: 150px;
+    z-index: 13;
+}
+.location-icon {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background: url(img_2.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 14;
+    overflow: hidden;
+}
+.address-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 217px;
+    height: 60px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 15;
+    overflow: hidden;
+}
+.copyright-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 295px;
+    height: 7.75%;
+    top: 88.11%;
+    left: calc(50% - 147px);
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 9;
+}
+.group-c {
+    position: absolute;
+    width: 15.28%;
+    height: 6.2%;
+    top: 88.11%;
+    left: 10.42%;
+    z-index: 43;
+    border-radius: 2.4px;
+}
+.amex-payment {
+    position: absolute;
+    width: 16.36%;
+    height: 100%;
+    top: 0;
+    left: 62.73%;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 44;
+    overflow: hidden;
+    border-radius: 2.4px;
+}
+.vector-d {
+    position: relative;
+    width: 29.074px;
+    height: 7.271px;
+    margin: 8.4px 0 0 3.6px;
+    background: url(img_12.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 45;
+}
+.googlepay-payment {
+    position: absolute;
+    width: 16.36%;
+    height: 100%;
+    top: 0;
+    left: 41.82%;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 46;
+    overflow: hidden;
+    border-radius: 2.4px;
+}
+.vector-e {
+    position: relative;
+    width: 25.05px;
+    height: 10.315px;
+    margin: 6.9px 0 0 5.4px;
+    background: url(img_11.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 47;
+}
+.visa-payment {
+    position: absolute;
+    width: 16.36%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    z-index: 48;
+    overflow: hidden;
+    border-radius: 2.4px;
+}
+.vector-f {
+    position: relative;
+    width: 27.75px;
+    height: 8.981px;
+    margin: 7.5px 0 0 4.2px;
+    background: url(img_10.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 49;
+}
+.mastercard-payment {
+    position: absolute;
+    width: 16.36%;
+    height: 100%;
+    top: 0;
+    left: 20.91%;
+    background: #ffffff;
+    z-index: 50;
+    overflow: hidden;
+    border-radius: 2.4px;
+}
+.vector-10 {
+    position: relative;
+    width: 24px;
+    height: 14.833px;
+    margin: 4.5px 0 0 6px;
+    background: url(img_9.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 51;
+}
+.payment-method-paypal {
+    position: absolute;
+    width: 16.36%;
+    height: 100%;
+    top: 0;
+    left: 83.64%;
+    background: #ffffff;
+    z-index: 52;
+    overflow: hidden;
+    border-radius: 2.4px;
+}
+.vector-11 {
+    position: relative;
+    width: 13.416px;
+    height: 15.893px;
+    margin: 4.2px 0 0 11.4px;
+    background: url(img_13.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 53;
+}
+.frame-12 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: absolute;
+    width: 7.78%;
+    top: 88.11%;
+    left: 81.81%;
+    z-index: 54;
+}
+.huge-icon-social {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 55;
+    overflow: hidden;
+}
+.fb {
+    position: relative;
+    width: 12px;
+    height: 18px;
+    margin: 3px 0 0 6px;
+    z-index: 56;
+}
+.vector-13 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(img_4.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 57;
+}
+.huge-icon-social-14 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 58;
+    overflow: hidden;
+}
+.instagram {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    z-index: 59;
+}
+.combo-shape {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background: url(img_5.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 60;
+}
+.huge-icon-social-15 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 61;
+    overflow: hidden;
+}
+.twitter {
+    position: relative;
+    width: 17.708px;
+    height: 16px;
+    margin: 4px 0 0 3.035px;
+    z-index: 62;
+}
+.vector-16 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(img_6.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 63;
+}
