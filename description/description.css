@@ -23,8 +23,8 @@ button {
 
 .main-container {
     position: relative;
-    width: 1140px;
-    height: 698px;
+    width: 1440px;
+    height: 2406px;
     margin: 0 auto;
 }
 .flex-row-af {
@@ -34,20 +34,20 @@ button {
     margin: 0 0 0 0;
     z-index: 64;
 }
-.rectangle {
-    position: absolute;
-    width: 555px;
-    height: 555px;
-    top: 0;
-    left: 0;
-    background: rgba(165, 169, 172, 0.05);
-}
+/*.rectangle {*/
+/*    position: absolute;*/
+/*    width: 555px;*/
+/*    height: 555px;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    background: rgba(165, 169, 172, 0.05);*/
+/*}*/
 .image {
     position: relative;
     width: 345.804px;
     height: 420px;
     margin: 68px 0 0 105px;
-    background: url(./assets/images/00cdf7fd-e85c-4e26-9792-c08d251e07b4.png)
+    background: url(iphone14pro.jpg)
     no-repeat center;
     background-size: cover;
     z-index: 47;
@@ -69,7 +69,7 @@ button {
     white-space: nowrap;
     z-index: 32;
 }
-.button {
+.button-in-stock {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@ button {
     left: 1071px;
     padding: 6px 10px 6px 10px;
     cursor: pointer;
-    background: rgba(60, 209, 57, 0.1);
+    background: rgba(18, 250, 1, 0.24);
     border: none;
     z-index: 62;
     border-radius: 4px;
@@ -115,12 +115,14 @@ button {
 }
 .frame-1 {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    align-self: stretch;
     flex-wrap: nowrap;
     flex-shrink: 0;
+    gap: 10px;
     position: relative;
-    width: 120px;
-    z-index: 34;
+    min-width: 0;
+    z-index: 16;
 }
 .huge-icon-star {
     flex-shrink: 0;
@@ -212,20 +214,20 @@ button {
     background-size: 100% 100%;
     z-index: 44;
 }
-.reviews {
-    flex-shrink: 0;
-    flex-basis: auto;
-    position: relative;
-    height: 30px;
-    color: #a4a8ac;
-    font-family: Montserrat, var(--default-font-family);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: left;
-    white-space: nowrap;
-    z-index: 45;
-}
+/*.reviews {*/
+/*    flex-shrink: 0;*/
+/*    flex-basis: auto;*/
+/*    position: relative;*/
+/*    height: 30px;*/
+/*    color: #a4a8ac;*/
+/*    font-family: Montserrat, var(--default-font-family);*/
+/*    font-size: 16px;*/
+/*    font-weight: 400;*/
+/*    line-height: 30px;*/
+/*    text-align: left;*/
+/*    white-space: nowrap;*/
+/*    z-index: 45;*/
+/*}*/
 .price {
     display: flex;
     align-items: flex-start;
@@ -296,10 +298,10 @@ button {
     align-items: flex-start;
     flex-wrap: nowrap;
     flex-shrink: 0;
-    gap: 10px;
+    gap: 20px;
     position: relative;
-    width: 174px;
-    z-index: 27;
+    width: 112px;
+    z-index: 29;
 }
 .rectangle-a {
     flex-shrink: 0;
@@ -370,8 +372,6 @@ button {
     width: 13.5px;
     height: 1.5px;
     margin: 0px 0 0 0px;
-    background: url(./assets/images/0633bcf8-4997-4ed7-a3a0-a278c8753145.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 58;
 }
@@ -428,34 +428,30 @@ button {
     margin: 5.25px 0 0 5.25px;
     z-index: 60;
 }
-.union {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: url(./assets/images/6eb7dc25-0ce8-457a-90bb-c4e5b92be2c3.png)
-    no-repeat center;
-    background-size: 100% 100%;
-    z-index: 61;
-}
-.button-10 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    gap: 10px;
-    position: absolute;
-    width: 339px;
-    height: 56px;
-    top: 375px;
-    left: 725px;
-    padding: 20px 20px 20px 20px;
-    cursor: pointer;
-    background: #1c4e8e;
-    border: none;
-    z-index: 5;
-    border-radius: 10px;
+/*.union {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    background: url(./assets/images/6eb7dc25-0ce8-457a-90bb-c4e5b92be2c3.png)*/
+/*    no-repeat center;*/
+/*    background-size: 100% 100%;*/
+/*    z-index: 61;*/
+/*}*/
+.button-10{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 42;
 }
 .span-button {
     flex-shrink: 0;
@@ -582,8 +578,7 @@ button {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(./assets/images/e204dd2b-492d-43b0-aea4-6a8c703da102.png)
-    no-repeat center;
+    background: url(img_3.png);
     background-size: 100% 100%;
     z-index: 13;
 }
@@ -623,7 +618,7 @@ button {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(./assets/images/9f468536-0549-4846-a949-473808e5fe2b.png)
+    background: url(img_1.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 17;
@@ -664,8 +659,8 @@ button {
     height: 20px;
     top: 0;
     left: 0;
-    background: url(./assets/images/7fabf4b0-fe0c-459c-addf-74ea5d501c50.png)
-    no-repeat center;
+    /*background: url(img-3.png)*/
+    /*no-repeat center;*/
     background-size: cover;
     z-index: 21;
 }
@@ -692,7 +687,7 @@ button {
     width: 70.808px;
     height: 86px;
     margin: 19px 0 0 26px;
-    background: url(./assets/images/8d79f1cc-2e7c-44bf-85e1-17aee4d774a1.png)
+    background: url(iphone14-1.webp)
     no-repeat center;
     background-size: cover;
     z-index: 48;
@@ -710,7 +705,7 @@ button {
     width: 70.808px;
     height: 86px;
     margin: 19px 0 0 26px;
-    background: url(./assets/images/a97fc166-b362-4516-8b3b-67acc90fec18.png)
+    background: url(iphone14-2.webp)
     no-repeat center;
     background-size: cover;
     z-index: 49;
@@ -728,7 +723,7 @@ button {
     width: 70.808px;
     height: 86px;
     margin: 19px 0 0 26px;
-    background: url(./assets/images/60a5af09-07d6-4d31-8c29-ee1f14130197.png)
+    background: url(iphone14-3.webp)
     no-repeat center;
     background-size: cover;
     z-index: 50;
@@ -746,8 +741,2152 @@ button {
     width: 70.808px;
     height: 86px;
     margin: 19px 0 0 26px;
-    background: url(./assets/images/e81666e4-f33a-42d5-a250-d876a079476b.png)
+    background: url(iphone13.webp)
     no-repeat center;
     background-size: cover;
     z-index: 51;
+}
+/*.electro {*/
+/*    position: absolute;*/
+/*    width: 92.17%;*/
+/*    height: 99.4%;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    background-size: 100% 100%;*/
+/*    z-index: 3;*/
+/*}*/
+/*.logo {*/
+/*    position: absolute;*/
+/*    width: 58px;*/
+/*    height: 58px;*/
+/*    top: 50%;*/
+/*    left: 0;*/
+/*    transform: translate(0, -27.59%);*/
+/*    overflow: hidden;*/
+/*}*/
+.text-15 {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.input-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 317px;
+    height: 50px;
+    padding: 13px 16px 13px 16px;
+    background: rgba(165, 169, 172, 0.05);
+    z-index: 5;
+    border-radius: 5px 5px 0 0;
+}
+.arrow-down-18 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /*background: url(./assets/images/2cd4d224-ceaa-4bef-83db-16c4b99f6a91.png)*/
+    /*no-repeat center;*/
+    background-size: 100% 100%;
+    z-index: 13;
+}
+
+.home{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 50px;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 44;
+}
+.shop {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 42px;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 46;
+}
+.huge-icon-arrows-outline {
+    flex-shrink: 5;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 50;
+    overflow: hidden;
+}
+.vector-1b {
+    position: relative;
+    width: 11.5px;
+    height: 5.5px;
+    margin: 9.25px 0 0 6.25px;
+    background-size: 100% 100%;
+    z-index: 48;
+}
+
+.frame-19{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 785px;
+    height: 50px;
+    margin: -4px 0 0 150px;
+    z-index: 43;
+}
+
+.frame-8{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    top: 0;
+    right: 0;
+    z-index: 28;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 347px;
+    height: 50px;
+    padding: 13px 16px 13px 16px;
+    border: 1px solid rgba(165, 169, 172, 0.2);
+    z-index: 21;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 93px;
+    height: 50px;
+    padding: 13px 16px 13px 16px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border-top: 1px solid rgba(165, 169, 172, 0.2);
+    border-bottom: 1px solid rgba(165, 169, 172, 0.2);
+    border-left: 1px solid rgba(165, 169, 172, 0.2);
+    z-index: 15;
+    border-radius: 10px 0 0 10px;
+}
+
+.text{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+}
+.button-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 98px;
+    height: 50px;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+    background: #1c4e8e;
+    border: none;
+    z-index: 26;
+    border-radius: 0 10px 10px 0;
+}
+.button-7 {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 27;
+}
+
+.icon-4 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 23;
+    overflow: hidden;
+}
+
+.frame {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    position: absolute;
+    width: 538px;
+    height: 50px;
+    top: 0;
+    left: 209px;
+    z-index: 14;
+}
+
+.frame-3 {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    z-index: 22;
+}
+
+.button-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 98px;
+    height: 50px;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+    background: #1c4e8e;
+    border: none;
+    z-index: 41;
+    border-radius: 10px;
+}
+
+.cart-item{
+    flex-shrink: 0;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: -5px;
+    left: 102px;
+    cursor: pointer;
+    font-size: 0px;
+    background: transparent;
+    border: none;
+    z-index: 38;
+}
+
+.about-us {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 75px;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 49;
+}
+
+.blog {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 38px;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 50;
+}
+.contact-us {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 89px;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 51;
+}
+
+.text {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+}
+
+.arrow-down-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+    z-index: 20;
+}
+
+.main-container-review {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    position: relative;
+    width: 256px;
+    margin: 0 auto;
+}
+.reviews {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #a4a8ac;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+}
+.frame-1 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    width: 120px;
+}
+.huge-icon {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+    overflow: hidden;
+}
+.star {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background-size: 100% 100%;
+    z-index: 2;
+}
+.huge-icon-star {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 3;
+    overflow: hidden;
+}
+.star-2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background-size: 100% 100%;
+    z-index: 4;
+}
+.huge-icon-star-3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 5;
+    overflow: hidden;
+}
+.star-4 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background-size: 100% 100%;
+    z-index: 6;
+}
+.huge-icon-star-5 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 7;
+    overflow: hidden;
+}
+.star-6 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background-size: 100% 100%;
+    z-index: 8;
+}
+.huge-icon-7 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 9;
+    overflow: hidden;
+}
+.star-8 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+
+#reviews-star{
+    position: relative;
+    bottom: 360px;
+    left:580px;
+    font-family: Montserrat, var(--default-font-family);
+}
+.rectangle-minus {
+    position: absolute;
+    width: 40px;
+    height: 56px;
+    top: 375px;
+    left: 585px;
+    border: 1px solid rgba(165, 169, 172, 0.2);
+    z-index: 54;
+    border-radius: 10px 0 0 10px;
+}
+
+.alternate-image{
+    position: relative;
+    width: 123px;
+    height: 123px;
+    margin: 0 auto;
+    background: rgba(165, 169, 172, 0.05);
+}
+
+#button-add-to-cart{
+    position: relative;
+    left: 780px;
+    bottom: 60px;
+    border: #1c4e8e;
+    background: #1c4e8e;
+    border-radius: 10px 10px 10px 10px;
+    width: 300px;
+    height: 50px;
+
+
+}
+
+/*.button-add-to-cart {*/
+/*    flex-shrink: 0;*/
+/*    position: relative;*/
+/*    width: 92px;*/
+/*    height: 30px;*/
+/*    cursor: pointer;*/
+/*    color: #ffffff;*/
+/*    font-family: Montserrat, var(--default-font-family);*/
+/*    font-size: 16px;*/
+/*    font-weight: 400;*/
+/*    line-height: 30px;*/
+/*    white-space: nowrap;*/
+/*    background: transparent;*/
+/*    border: none;*/
+/*}*/
+
+.container-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+.description-frame {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 30px;
+    position: relative;
+    width: 503px;
+    z-index: 1;
+}
+.description {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #1c4e8e;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+}
+.Additional-Information{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+}
+.descriptions-reviews{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 4;
+}
+.long-text-description {
+    flex-shrink: 0;
+    position: relative;
+    width: 1140px;
+    height: 1px;
+    background: rgba(165, 169, 172, 0.2);
+    z-index: 5;
+}
+.description-text {
+    position: relative;
+    width: 131px;
+    height: 3px;
+    margin: -1px 0 0 0;
+    background: #1c4e8e;
+    z-index: 6;
+}
+.long-established-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 1140px;
+    height: 180px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    z-index: 7;
+}
+
+
+
+
+.Related-products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 50px;
+    position: relative;
+    width: 1138px;
+    margin: 0 auto;
+}
+.related-products {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 56px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    white-space: nowrap;
+}
+.products-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 30px;
+    position: relative;
+    width: 1138px;
+    z-index: 1;
+}
+.products-frame-1 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 30px;
+    position: relative;
+    width: 1138px;
+    z-index: 2;
+}
+.products-frame-box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 20px;
+    position: relative;
+    width: 262px;
+    z-index: 3;
+}
+.product-frame-group {
+    flex-shrink: 0;
+    position: relative;
+    width: 262px;
+    height: 330px;
+    background: url(iphone14plus.jpg)
+    no-repeat center;
+    background-size: cover;
+    z-index: 4;
+}
+.product-frame-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 5px;
+    position: relative;
+    z-index: 5;
+}
+.product-frame-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 6;
+}
+.apple-iphone-14-plus {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 230px;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+}
+.product-frame-4 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    width: 120px;
+    z-index: 8;
+}
+.huge-icon-interface-solid-star {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 9;
+    overflow: hidden;
+}
+.star {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 10;
+}
+.huge-icon-interface-solid-star-5 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 11;
+    overflow: hidden;
+}
+.star-6 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 12;
+}
+.huge-icon-interface-solid-star-7 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 13;
+    overflow: hidden;
+}
+.star-8 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 14;
+}
+.huge-icon-interface {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 15;
+    overflow: hidden;
+}
+.star-9 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 16;
+}
+.huge-icon-interface-a {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 17;
+    overflow: hidden;
+}
+.star-b {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 18;
+}
+.dollar {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 19;
+}
+.empty {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 20px;
+    position: relative;
+    width: 262px;
+    z-index: 20;
+}
+.group-c {
+    flex-shrink: 0;
+    position: relative;
+    width: 262px;
+    height: 330px;
+    background: url(xiaomi-fimi-mini-x8-pro-v2-combo.webp)
+    no-repeat center;
+    background-size: cover;
+    z-index: 21;
+}
+.frame-d {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 5px;
+    position: relative;
+    z-index: 22;
+}
+.frame-e {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 23;
+}
+.xiaomi-fimi-x {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 230px;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 24;
+}
+.frame-f {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    width: 120px;
+    z-index: 25;
+}
+.huge-icon-interface-10 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 26;
+    overflow: hidden;
+}
+.star-11 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 27;
+}
+.huge-icon-interface-12 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 28;
+    overflow: hidden;
+}
+.star-13 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 29;
+}
+.huge-icon-interface-14 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 30;
+    overflow: hidden;
+}
+.star-15 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 31;
+}
+.huge-icon-interface-16 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 32;
+    overflow: hidden;
+}
+.star-17 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 33;
+}
+.huge-icon-interface-18 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 34;
+    overflow: hidden;
+}
+.star-19 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 35;
+}
+.dollar-1a {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 36;
+}
+.empty-1b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 20px;
+    position: relative;
+    width: 262px;
+    z-index: 37;
+}
+.group-1c {
+    flex-shrink: 0;
+    position: relative;
+    width: 262px;
+    height: 330px;
+    background: url(refurb-ipad-mini-wifi-purple-gallery-2022.jpg)
+    no-repeat center;
+    background-size: cover;
+    z-index: 38;
+}
+.frame-1d {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 5px;
+    position: relative;
+    z-index: 39;
+}
+.frame-1e {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 40;
+}
+.apple-ipad-mini {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 230px;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 41;
+}
+.frame-1f {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    width: 120px;
+    z-index: 42;
+}
+.huge-icon-interface-20 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 43;
+    overflow: hidden;
+}
+.pic-b {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(./assets/images/a3ddb7c5-f613-42c0-9b3c-b43903628abb.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 44;
+}
+.section-8 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 45;
+    overflow: hidden;
+}
+.img-4 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(./assets/images/f1ffb228-46fb-466c-ae4a-0a727850326a.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 46;
+}
+.box-8 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 47;
+    overflow: hidden;
+}
+.pic-c {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(./assets/images/535cd0c4-f578-4f89-b0b0-fe97666764b9.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 48;
+}
+.section-9 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 49;
+    overflow: hidden;
+}
+.pic-d {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(./assets/images/c6ffaa79-bb0c-45e5-b703-6ec5676a4ee3.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 50;
+}
+.box-9 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 51;
+    overflow: hidden;
+}
+.pic-e {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(./assets/images/b0bf91d0-693f-4e3a-9c17-cbcba3faace5.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 52;
+}
+.text-7 {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 53;
+}
+.section-a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 20px;
+    position: relative;
+    width: 262px;
+    z-index: 54;
+}
+.pic-f {
+    flex-shrink: 0;
+    position: relative;
+    width: 262px;
+    height: 330px;
+    background: url(rogDelta.jpg)
+    no-repeat center;
+    background-size: cover;
+    z-index: 55;
+}
+.section-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 5px;
+    position: relative;
+    z-index: 56;
+}
+.box-a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 8px;
+    position: relative;
+    z-index: 57;
+}
+.asus-rog-delta-s {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 230px;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 58;
+}
+.frame-21 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    position: relative;
+    width: 120px;
+    z-index: 59;
+}
+.huge-icon-star {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 60;
+    overflow: hidden;
+}
+.star-22 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 61;
+}
+.huge-icon-star-23 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 62;
+    overflow: hidden;
+}
+.star-24 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 63;
+}
+.huge-icon-star-25 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 64;
+    overflow: hidden;
+}
+.star-26 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 65;
+}
+.huge-icon-star-27 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 66;
+    overflow: hidden;
+}
+.star-28 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 67;
+}
+.huge-icon-star-29 {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 68;
+    overflow: hidden;
+}
+.star-2a {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background: url(star.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 69;
+}
+.dollar-sign {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 70;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-container-1 {
+    position: relative;
+    width: 1440px;
+    height: 387px;
+    margin: 0 auto;
+}
+.rectangle-footer {
+    position: relative;
+    width: 1140px;
+    height: 1px;
+    margin: 324px 0 0 150px;
+    background: rgba(165, 169, 172, 0.2);
+    z-index: 42;
+}
+.rectangle-footer-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #1c4e8e;
+}
+.logo-text-footer {
+    position: absolute;
+    width: 14.08%;
+    height: 10.34%;
+    top: 7.75%;
+    left: 10.42%;
+    z-index: 1;
+    overflow: hidden;
+}
+.group-footer {
+    position: relative;
+    width: 202.8px;
+    height: 39.189px;
+    margin: 0.4px 0 0 0;
+    z-index: 2;
+}
+.electro-footer {
+    position: absolute;
+    width: 92.17%;
+    height: 99.4%;
+    top: 0;
+    left: 0;
+    background: url(img_5.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 3;
+}
+.electro-footer-2 {
+    position: absolute;
+    width: 6.08%;
+    height: 29.82%;
+    top: 70.18%;
+    left: 93.92%;
+    /*background: url(img_5.png)*/
+    /*no-repeat center;*/
+    background-size: 100% 100%;
+    z-index: 4;
+}
+.information-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 100px;
+    height: 230px;
+    top: 30px;
+    left: 503.5px;
+    z-index: 16;
+}
+.information-footer-3{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+}
+.frame-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 96px;
+    z-index: 18;
+}
+.my-account-footer {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 19;
+}
+.login-footer {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+}
+.my-cart-footer {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 21;
+}
+.my-wishlist-footer{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 22;
+}
+.checkout-footer{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 23;
+}
+.service-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 165px;
+    height: 230px;
+    top: 30px;
+    left: 703px;
+    z-index: 24;
+}
+.service-footer-4{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 25;
+}
+.frame-footer-5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 165px;
+    z-index: 26;
+}
+.about-us-footer{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 27;
+}
+.careers-footer{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 28;
+}
+.delivery-information-footer{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 29;
+}
+.privacy-policy-footer {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 30;
+}
+.terms-conditions-footer{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 31;
+}
+.subscribe-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 322px;
+    height: 166px;
+    top: 30px;
+    left: 968px;
+    z-index: 32;
+}
+.frame-6-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    z-index: 33;
+}
+.subscribe-7-footer{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 34;
+}
+.enter-email-footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 322px;
+    height: 60px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    z-index: 35;
+}
+.mail-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 322px;
+    padding: 13px 16px 13px 16px;
+    background: rgba(165, 169, 172, 0.1);
+    z-index: 36;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.frame-8-footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 145px;
+    position: relative;
+    width: 290px;
+    z-index: 37;
+}
+.frame-9-footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 121px;
+    z-index: 38;
+}
+.gmail-icon-footer{
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background: url(img_6.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 39;
+    overflow: hidden;
+}
+.your-email-footer{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 40;
+}
+.arrow-right-footer{
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background: url(img_7.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 41;
+    overflow: hidden;
+}
+.call-footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 139px;
+    height: 30px;
+    top: 100px;
+    left: 150px;
+    z-index: 5;
+}
+.calling-icon-footer{
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 6;
+    overflow: hidden;
+}
+.vector-footer{
+    position: relative;
+    width: 19.5px;
+    height: 19.5px;
+    margin: 2.25px 0 0 2.25px;
+    background: url(img_8.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 7;
+}
+.phone-number-footer{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+}
+.mail-a-footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 215px;
+    height: 30px;
+    top: 146px;
+    left: 150px;
+    z-index: 10;
+}
+.gmail-icon-b-footer{
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background: url(img_9.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 11;
+    overflow: hidden;
+}
+.email-input-footer{
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 30px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 12;
+}
+.address-footer{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 251px;
+    height: 60px;
+    top: 192px;
+    left: 150px;
+    z-index: 13;
+}
+.location-icon-footer{
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    background: url(img_10.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 14;
+    overflow: hidden;
+}
+.address-text-footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 217px;
+    height: 60px;
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-overflow: initial;
+    z-index: 15;
+    overflow: hidden;
+}
+.copyright-text-footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 295px;
+    height: 7.75%;
+    top: 88.11%;
+    left: calc(50% - 147px);
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 9;
+}
+.group-c-footer{
+    position: absolute;
+    width: 15.28%;
+    height: 6.2%;
+    top: 88.11%;
+    left: 10.42%;
+    z-index: 43;
+    border-radius: 2.4px;
+}
+.amex-payment-footer{
+    position: absolute;
+    width: 16.36%;
+    height: 100%;
+    top: 0;
+    left: 62.73%;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 44;
+    overflow: hidden;
+    border-radius: 2.4px;
+}
+.vector-d-footer {
+    position: relative;
+    width: 29.074px;
+    height: 7.271px;
+    margin: 8.4px 0 0 3.6px;
+    background: url(amex.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 45;
+}
+.googlepay-payment-footer {
+    position: absolute;
+    width: 16.36%;
+    height: 100%;
+    top: 0;
+    left: 41.82%;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 46;
+    overflow: hidden;
+    border-radius: 2.4px;
+}
+.vector-e-footer {
+    position: relative;
+    width: 25.05px;
+    height: 10.314px;
+    margin: 6.9px 0 0 5.4px;
+    background: url(gpay.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 47;
+}
+.visa-payment-footer {
+    position: absolute;
+    width: 16.36%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 48;
+    overflow: hidden;
+    border-radius: 2.4px;
+}
+.vector-f-footer {
+    position: relative;
+    width: 27.75px;
+    height: 8.981px;
+    margin: 7.5px 0 0 4.2px;
+    background: url(visa.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 49;
+}
+.mastercard-payment-footer {
+    position: absolute;
+    width: 16.36%;
+    height: 100%;
+    top: 0;
+    left: 20.91%;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 50;
+    overflow: hidden;
+    border-radius: 2.4px;
+}
+.vector-10-footer {
+    position: relative;
+    width: 24px;
+    height: 14.833px;
+    margin: 4.5px 0 0 6px;
+    background: url(mastercard.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 51;
+}
+.payment-method-paypal-footer {
+    position: absolute;
+    width: 16.36%;
+    height: 100%;
+    top: 0;
+    left: 83.64%;
+    background: #ffffff;
+    z-index: 52;
+    overflow: hidden;
+    border-radius: 2.4px;
+}
+.vector-11-footer {
+    position: relative;
+    width: 13.416px;
+    height: 15.893px;
+    margin: 4.2px 0 0 11.4px;
+    background: url(paypal.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 53;
+}
+.frame-12-footer {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: absolute;
+    width: 7.78%;
+    top: 88.11%;
+    left: 81.81%;
+    z-index: 54;
+}
+.huge-icon-social-footer {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 55;
+    overflow: hidden;
+}
+.fb-footer {
+    position: relative;
+    width: 12px;
+    height: 18px;
+    margin: 3px 0 0 6px;
+    z-index: 56;
+}
+.vector-13-footer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/6ba3f30d-589a-4cd5-b4b4-0a9158a7b3ef.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 57;
+}
+.huge-icon-social-14-footer {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 58;
+    overflow: hidden;
+}
+.instagram-footer {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    z-index: 59;
+}
+.combo-shape-footer {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/0ad21c05-25ce-4dc5-8324-fd946fc0d170.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 60;
+}
+.huge-icon-social-15-footer {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 61;
+    overflow: hidden;
+}
+.twitter-footer {
+    position: relative;
+    width: 17.708px;
+    height: 16px;
+    margin: 4px 0 0 3.035px;
+    z-index: 62;
+}
+.vector-16-footer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/535f3e6c-9a41-4fff-a1a5-8d4c1863c662.png)
+    no-repeat center;
+    background-size: 100% 100%;
+    z-index: 63;
 }

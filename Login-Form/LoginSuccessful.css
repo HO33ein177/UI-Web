@@ -19,6 +19,7 @@ select,
 textarea,
 button {
     outline: 0;
+    cursor: pointer;
 }
 
 .main-container {
@@ -143,20 +144,10 @@ button {
     text-align: center;
     z-index: 3;
 }
-.button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-self: stretch;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 10px;
-    position: relative;
-    min-width: 0;
+.button1  {
     height: 56px;
     padding: 20px 20px 20px 20px;
     background: #1c4e8e;
-    z-index: 4;
     border-radius: 10px;
 }
 .back-to-login {

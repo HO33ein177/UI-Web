@@ -133,22 +133,13 @@
         </div>
     </div>
     <div class="flex-row-af">
-        <div class="rectangle"><div class="image"></div></div>
-        <span class="apple-iphone-pro">Apple iPhone 14 Pro</span
-        ><button class="button"><span class="in-stock">In Stock</span></button>
-        <div class="frame">
-            <div class="frame-1">
-                <div class="huge-icon-star"><div class="star"></div></div>
-                <div class="huge-icon-star-2"><div class="star-3"></div></div>
-                <div class="huge-icon-star-4"><div class="star-icon"></div></div>
-                <div class="huge-icon-interface">
-                    <div class="star-icon-5"></div>
-                </div>
-                <div class="huge-icon-interface-6">
-                    <div class="star-icon-7"></div>
-                </div>
-            </div>
-            <span class="reviews">5.0 (121 Reviews)</span>
+        <div class="rectangle">
+            <div class="image"></div></div>
+        <span class="apple-iphone-pro">Apple iPhone 14 Pro</span>
+        <button class="button-in-stock"><span class="in-stock">In Stock</span></button>
+        <div>
+            <span id="reviews-star">5.0 (121 Reviews)</span>
+
         </div>
         <span class="price">$1999.00</span
         ><span class="content"
@@ -166,42 +157,62 @@
                 <div class="rectangle-d"></div>
             </div>
         </div>
-        <button class="rectangle-button">
+        <div class="rectangle-minus">
             <div class="huge-icon-minus">
-                <div class="minus"><div class="vector-stroke"></div></div>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.75 12C18.75 12.4142 18.4142 12.75 18 12.75L6 12.75C5.58579 12.75 5.25 12.4142 5.25 12C5.25 11.5858 5.58579 11.25 6 11.25L18 11.25C18.4142 11.25 18.75 11.5858 18.75 12Z" fill="#101316"/>
+                </svg>
+
             </div>
-        </button>
+        </div>
         <div class="rectangle-e"><span class="span-1">1</span></div>
         <div class="rectangle-f">
             <div class="huge-icon-plus">
-                <div class="plus"><div class="union"></div></div>
+                <div class="plus">+</div>
             </div>
         </div>
-        <button class="button-10">
+
+        <button id="button-add-to-cart">
             <span class="span-button">Add to Cart</span>
         </button>
         <div class="button-11">
             <div class="huge-icon-health-outline"><div class="vector"></div></div>
         </div>
         <div class="share">
-            <span class="share-12">Share</span>
-            <div class="frame-13">
-                <div class="button-14">
-                    <div class="huge-icon-social-facebook">
-                        <div class="fb"><div class="vector-15"></div></div>
-                    </div>
-                </div>
-                <div class="button-16">
-                    <div class="huge-icon-social-twitter">
-                        <div class="twitter"><div class="vector-17"></div></div>
-                    </div>
-                </div>
-                <div class="button-18">
-                    <div class="huge-icon-social">
-                        <div class="instagram"><div class="combo-shape"></div></div>
-                    </div>
-                </div>
-            </div>
+<!--            <div class="alternate-image">-->
+
+<!--            </div>-->
+<!--            <span class="share-12">Share</span>-->
+<!--            <div class="frame-13">-->
+<!--                <div class="button-14">-->
+<!--                    <div class="huge-icon-social-facebook">-->
+<!--                        <div class="fb">-->
+
+<!--                            <div class="vector-15"></div></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="button-16">-->
+<!--                    <div class="huge-icon-social-twitter">-->
+<!--                        <div class="twitter"><div class="vector-17"></div></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="button-18">-->
+<!--                    <div class="huge-icon-social">-->
+<!--                        <div class="instagram"><div class="combo-shape"></div></div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+            <svg width="555" height="94" viewBox="0 0 555 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.634 21.216C4.626 21.216 3.66 21.084 2.736 20.82C1.812 20.544 1.068 20.19 0.504 19.758L1.494 17.562C2.034 17.946 2.67 18.264 3.402 18.516C4.146 18.756 4.896 18.876 5.652 18.876C6.228 18.876 6.69 18.822 7.038 18.714C7.398 18.594 7.662 18.432 7.83 18.228C7.998 18.024 8.082 17.79 8.082 17.526C8.082 17.19 7.95 16.926 7.686 16.734C7.422 16.53 7.074 16.368 6.642 16.248C6.21 16.116 5.73 15.996 5.202 15.888C4.686 15.768 4.164 15.624 3.636 15.456C3.12 15.288 2.646 15.072 2.214 14.808C1.782 14.544 1.428 14.196 1.152 13.764C0.888 13.332 0.756 12.78 0.756 12.108C0.756 11.388 0.948 10.734 1.332 10.146C1.728 9.546 2.316 9.072 3.096 8.724C3.888 8.364 4.878 8.184 6.066 8.184C6.858 8.184 7.638 8.28 8.406 8.472C9.174 8.652 9.852 8.928 10.44 9.3L9.54 11.514C8.952 11.178 8.364 10.932 7.776 10.776C7.188 10.608 6.612 10.524 6.048 10.524C5.484 10.524 5.022 10.59 4.662 10.722C4.302 10.854 4.044 11.028 3.888 11.244C3.732 11.448 3.654 11.688 3.654 11.964C3.654 12.288 3.786 12.552 4.05 12.756C4.314 12.948 4.662 13.104 5.094 13.224C5.526 13.344 6 13.464 6.516 13.584C7.044 13.704 7.566 13.842 8.082 13.998C8.61 14.154 9.09 14.364 9.522 14.628C9.954 14.892 10.302 15.24 10.566 15.672C10.842 16.104 10.98 16.65 10.98 17.31C10.98 18.018 10.782 18.666 10.386 19.254C9.99 19.842 9.396 20.316 8.604 20.676C7.824 21.036 6.834 21.216 5.634 21.216ZM18.6605 11.172C19.4285 11.172 20.1125 11.328 20.7125 11.64C21.3245 11.94 21.8045 12.408 22.1525 13.044C22.5005 13.668 22.6745 14.472 22.6745 15.456V21H19.8665V15.888C19.8665 15.108 19.6925 14.532 19.3445 14.16C19.0085 13.788 18.5285 13.602 17.9045 13.602C17.4605 13.602 17.0585 13.698 16.6985 13.89C16.3505 14.07 16.0745 14.352 15.8705 14.736C15.6785 15.12 15.5825 15.612 15.5825 16.212V21H12.7745V7.644H15.5825V13.998L14.9525 13.188C15.3005 12.54 15.7985 12.042 16.4465 11.694C17.0945 11.346 17.8325 11.172 18.6605 11.172ZM31.1598 21V19.11L30.9798 18.696V15.312C30.9798 14.712 30.7938 14.244 30.4218 13.908C30.0618 13.572 29.5038 13.404 28.7478 13.404C28.2318 13.404 27.7218 13.488 27.2178 13.656C26.7258 13.812 26.3058 14.028 25.9578 14.304L24.9498 12.342C25.4778 11.97 26.1138 11.682 26.8578 11.478C27.6018 11.274 28.3578 11.172 29.1258 11.172C30.6018 11.172 31.7478 11.52 32.5638 12.216C33.3798 12.912 33.7878 13.998 33.7878 15.474V21H31.1598ZM28.2078 21.144C27.4518 21.144 26.8038 21.018 26.2638 20.766C25.7238 20.502 25.3098 20.148 25.0218 19.704C24.7338 19.26 24.5898 18.762 24.5898 18.21C24.5898 17.634 24.7278 17.13 25.0038 16.698C25.2918 16.266 25.7418 15.93 26.3538 15.69C26.9658 15.438 27.7638 15.312 28.7478 15.312H31.3218V16.95H29.0538C28.3938 16.95 27.9378 17.058 27.6858 17.274C27.4458 17.49 27.3258 17.76 27.3258 18.084C27.3258 18.444 27.4638 18.732 27.7398 18.948C28.0278 19.152 28.4178 19.254 28.9098 19.254C29.3778 19.254 29.7978 19.146 30.1698 18.93C30.5418 18.702 30.8118 18.372 30.9798 17.94L31.4118 19.236C31.2078 19.86 30.8358 20.334 30.2958 20.658C29.7558 20.982 29.0598 21.144 28.2078 21.144ZM36.3292 21V11.316H39.0112V14.052L38.6332 13.26C38.9212 12.576 39.3832 12.06 40.0192 11.712C40.6552 11.352 41.4292 11.172 42.3412 11.172V13.764C42.2212 13.752 42.1132 13.746 42.0172 13.746C41.9212 13.734 41.8192 13.728 41.7112 13.728C40.9432 13.728 40.3192 13.95 39.8392 14.394C39.3712 14.826 39.1372 15.504 39.1372 16.428V21H36.3292ZM48.7465 21.144C47.6425 21.144 46.6705 20.928 45.8305 20.496C45.0025 20.064 44.3605 19.476 43.9045 18.732C43.4485 17.976 43.2205 17.118 43.2205 16.158C43.2205 15.186 43.4425 14.328 43.8865 13.584C44.3425 12.828 44.9605 12.24 45.7405 11.82C46.5205 11.388 47.4025 11.172 48.3865 11.172C49.3345 11.172 50.1865 11.376 50.9425 11.784C51.7105 12.18 52.3165 12.756 52.7605 13.512C53.2045 14.256 53.4265 15.15 53.4265 16.194C53.4265 16.302 53.4205 16.428 53.4085 16.572C53.3965 16.704 53.3845 16.83 53.3725 16.95H45.5065V15.312H51.8965L50.8165 15.798C50.8165 15.294 50.7145 14.856 50.5105 14.484C50.3065 14.112 50.0245 13.824 49.6645 13.62C49.3045 13.404 48.8845 13.296 48.4045 13.296C47.9245 13.296 47.4985 13.404 47.1265 13.62C46.7665 13.824 46.4845 14.118 46.2805 14.502C46.0765 14.874 45.9745 15.318 45.9745 15.834V16.266C45.9745 16.794 46.0885 17.262 46.3165 17.67C46.5565 18.066 46.8865 18.372 47.3065 18.588C47.7385 18.792 48.2425 18.894 48.8185 18.894C49.3345 18.894 49.7845 18.816 50.1685 18.66C50.5645 18.504 50.9245 18.27 51.2485 17.958L52.7425 19.578C52.2985 20.082 51.7405 20.472 51.0685 20.748C50.3965 21.012 49.6225 21.144 48.7465 21.144Z" fill="#101316"/>
+                <rect x="0.5" y="38.5" width="55" height="55" rx="9.5" stroke="#A5A9AC" stroke-opacity="0.2"/>
+                <path d="M34 57H31C28.2386 57 26 59.2386 26 62V64H22V68H26V75H30V68H34V64H30V62C30 61.4477 30.4477 61 31 61H34V57Z" fill="#101316"/>
+                <rect x="66.5" y="38.5" width="55" height="55" rx="9.5" stroke="#A5A9AC" stroke-opacity="0.2"/>
+                <path d="M97.2859 58C95.1821 58 93.4766 59.7909 93.4766 62C93.4766 62.3338 93.5155 62.6581 93.5889 62.9681C91.566 62.9681 88.519 62.5591 85.9743 60.0096C85.6359 59.6706 85.012 59.8973 85.0354 60.3757C85.4126 68.0627 88.7046 70.3049 90.4 70.4444C89.3052 71.5257 87.715 72.3791 86.1148 72.7622C85.6924 72.8633 85.5881 73.3256 86.0011 73.4599C87.1461 73.8323 88.785 73.9758 89.6672 74C95.9081 74 100.98 68.7471 101.093 62.2223C101.913 61.6894 102.438 60.5325 102.732 59.7129C102.804 59.5133 102.477 59.2807 102.281 59.3623C101.669 59.6171 100.892 59.6775 100.23 59.4618C99.5316 58.5693 98.4721 58 97.2859 58Z" fill="#101316"/>
+                <rect x="132.5" y="38.5" width="55" height="55" rx="9.5" stroke="#A5A9AC" stroke-opacity="0.2"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M155 56C152.239 56 150 58.2386 150 61V71C150 73.7614 152.239 76 155 76H165C167.761 76 170 73.7614 170 71V61C170 58.2386 167.761 56 165 56H155ZM166 61C166.552 61 167 60.5523 167 60C167 59.4477 166.552 59 166 59C165.448 59 165 59.4477 165 60C165 60.5523 165.448 61 166 61ZM165 66C165 68.7614 162.761 71 160 71C157.239 71 155 68.7614 155 66C155 63.2386 157.239 61 160 61C162.761 61 165 63.2386 165 66ZM160 69C161.657 69 163 67.6569 163 66C163 64.3431 161.657 63 160 63C158.343 63 157 64.3431 157 66C157 67.6569 158.343 69 160 69Z" fill="#101316"/>
+            </svg>
+
+
         </div>
     </div>
     <div class="flex-row-da">
@@ -209,6 +220,211 @@
         <div class="rectangle-1b"><div class="image-1c"></div></div>
         <div class="rectangle-1d"><div class="image-1e"></div></div>
         <div class="rectangle-1f"><div class="image-20"></div></div>
+    </div>
+    <div class="container-description">
+        <div class="description-frame">
+            <span class="description"> Descriptions</span>
+            <span class="Additional-Information"> Additional Information</span>
+            <span class="descriptions-reviews">Reviews </span>
+        </div>
+        <div class="long-text-description"><div class="description-text"></div></div>
+        <span class="long-established-text">
+                    it is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout. The point of
+                    using Lorem Ipsum is that it has a more-or-less normal distribution of
+                    letters, as opposed to using 'Content here, content here', making it
+                    look like readable English. Many desktop publishing packages and web
+                    page editors now use Lorem Ipsum as their default model text, and a
+                    search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy. <br /><br />Various versions have evolved over the years,
+                    sometimes by accident, sometimes on purpose (injected humour and the
+                    like)
+                </span>
+    </div>
+    <div class="Related-products-container">
+        <span class="related-products">Related Products</span>
+        <div class="products-frame">
+            <div class="products-frame-1">
+                <div class="products-frame-box-1">
+                    <div class="product-frame-group"></div>
+                    <div class="product-frame-2">
+                        <div class="product-frame-3">
+                            <span class="apple-iphone-14-plus">Apple iPhone 14 Plus</span>
+                            <div class="product-frame-4">
+                                <div class="huge-icon-interface-solid-star">
+                                    <div class="star"></div>
+                                </div>
+                                <div class="huge-icon-interface-solid-star-5">
+                                    <div class="star-6"></div>
+                                </div>
+                                <div class="huge-icon-interface-solid-star-7">
+                                    <div class="star-8"></div>
+                                </div>
+                                <div class="huge-icon-interface">
+                                    <div class="star-9"></div>
+                                </div>
+                                <div class="huge-icon-interface-a">
+                                    <div class="star-b"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="dollar">$850.00</span>
+                    </div>
+                </div>
+                <div class="empty">
+                    <div class="group-c"></div>
+                    <div class="frame-d">
+                        <div class="frame-e">
+                            <span class="xiaomi-fimi-x">Xiaomi Fimi X8 Mini</span>
+                            <div class="frame-f">
+                                <div class="huge-icon-interface-10">
+                                    <div class="star-11"></div>
+                                </div>
+                                <div class="huge-icon-interface-12">
+                                    <div class="star-13"></div>
+                                </div>
+                                <div class="huge-icon-interface-14">
+                                    <div class="star-15"></div>
+                                </div>
+                                <div class="huge-icon-interface-16">
+                                    <div class="star-17"></div>
+                                </div>
+                                <div class="huge-icon-interface-18">
+                                    <div class="star-19"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="dollar-1a">$650.00</span>
+                    </div>
+                </div>
+                <div class="empty-1b">
+                    <div class="group-1c"></div>
+                    <div class="frame-1d">
+                        <div class="frame-1e">
+                            <span class="apple-ipad-mini">Apple iPad Mini 6 Wi-Fi</span>
+                            <div class="frame-1f">
+                                <div class="huge-icon-interface-20">
+                                    <div class="pic-b"></div>
+                                </div>
+                                <div class="section-8"><div class="img-4"></div></div>
+                                <div class="box-8"><div class="pic-c"></div></div>
+                                <div class="section-9"><div class="pic-d"></div></div>
+                                <div class="box-9"><div class="pic-e"></div></div>
+                            </div>
+                        </div>
+                        <span class="text-7">$500.00</span>
+                    </div>
+                </div>
+                <div class="section-a">
+                    <div class="pic-f"></div>
+                    <div class="section-b">
+                        <div class="box-a">
+                            <span class="asus-rog-delta-s">Asus ROG Delta S</span>
+                            <div class="frame-21">
+                                <div class="huge-icon-star"><div class="star-22"></div></div>
+                                <div class="huge-icon-star-23">
+                                    <div class="star-24"></div>
+                                </div>
+                                <div class="huge-icon-star-25">
+                                    <div class="star-26"></div>
+                                </div>
+                                <div class="huge-icon-star-27">
+                                    <div class="star-28"></div>
+                                </div>
+                                <div class="huge-icon-star-29">
+                                    <div class="star-2a"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="dollar-sign">$250.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-container-1">
+        <div class="rectangle-footer"></div>
+        <div class="rectangle-footer-1"></div>
+        <div class="logo-text-footer">
+            <div class="group-footer">
+                <div class="electro-footer"></div>
+                <div class="electro-footer-2"></div>
+            </div>
+        </div>
+        <div class="information-footer">
+            <span class="information-footer-3">Information</span>
+            <div class="frame-footer">
+          <span class="my-account-footer">My Account</span
+          ><span class="login-footer">Login</span><span class="my-cart-footer">My Cart</span
+            ><span class="my-wishlist-footer">My Wishlist</span
+            ><span class="checkout-footer">Checkout</span>
+            </div>
+        </div>
+        <div class="service-footer">
+            <span class="service-footer-4">Service</span>
+            <div class="frame-footer-5">
+          <span class="about-us-footer">About Us</span
+          ><span class="careers-footer">Careers</span
+            ><span class="delivery-information-footer">Delivery Information</span
+            ><span class="privacy-policy-footer">Privacy Policy</span
+            ><span class="terms-conditions-footer">Terms & Conditions</span>
+            </div>
+        </div>
+        <div class="subscribe-footer">
+            <div class="frame-6-footer">
+          <span class="subscribe-7-footer">Subscribe</span
+          ><span class="enter-email-footer"
+            >Enter your email below to be the first to know about new
+            collections.</span
+            >
+            </div>
+            <div class="mail-footer">
+                <div class="frame-8-footer">
+                    <div class="frame-9-footer">
+                        <div class="gmail-icon-footer"></div>
+                        <span class="your-email-footer">Your Email</span>
+                    </div>
+                    <div class="arrow-right-footer"></div>
+                </div>
+            </div>
+        </div>
+        <div class="call-footer">
+            <div class="calling-icon-footer"><div class="vector-footer"></div></div>
+            <span class="phone-number-footer">(316) 555-0116</span>
+        </div>
+        <div class="mail-a-footer">
+            <div class="gmail-icon-b-footer"></div>
+            <span class="email-input-footer">electro@example.com</span>
+        </div>
+        <div class="address-footer">
+            <div class="location-icon-footer"></div>
+            <span class="address-text-footer"
+            >4140 Parker Rd. Allentown, <br />New Mexico 31134</span
+            >
+        </div>
+        <span class="copyright-text-footer"
+        >©2023 Electro All Rights are reserved️
+      </span>
+        <div class="group-c-footer">
+            <button class="amex-payment-footer"><div class="vector-d-footer"></div></button
+            ><button class="googlepay-payment-footer"><div class="vector-e-footer"></div></button
+        ><button class="visa-payment-footer"><div class="vector-f-footer"></div></button
+        ><button class="mastercard-payment-footer">
+            <div class="vector-10-footer"></div>
+        </button>
+            <div class="payment-method-paypal-footer"><div class="vector-11-footer"></div></div>
+        </div>
+        <div class="frame-12-footer">
+            <div class="huge-icon-social-footer">
+                <div class="fb-footer"><div class="vector-13-footer"></div></div>
+            </div>
+            <div class="huge-icon-social-14-footer">
+                <div class="instagram-footer"><div class="combo-shape-footer"></div></div>
+            </div>
+            <div class="huge-icon-social-15-footer">
+                <div class="twitter-footer"><div class="vector-16-footer"></div></div>
+            </div>
+        </div>
     </div>
 </div>
 </body>

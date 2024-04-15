@@ -3293,8 +3293,6 @@ button {
     height: 337.109px;
     top: 0;
     left: 0;
-    background: url(./assets/images/d098515e-a45c-4169-85c5-a320ed6785e7.png)
-    no-repeat center;
     background-size: cover;
     z-index: 86;
 }
@@ -3304,7 +3302,7 @@ button {
     height: 814px;
     top: 160px;
     left: 720px;
-    background: url(./assets/images/96200629-f8e9-408f-adfc-934cca8dadc2.png)
+    background: url(img_15.png)
     no-repeat center;
     background-size: cover;
     z-index: 399;
@@ -7615,8 +7613,6 @@ button {
     position: relative;
     width: 24px;
     height: 24px;
-    background: url(./assets/images/f0eaa8f3-122d-494c-b4a7-2570cb7e6987.png)
-    no-repeat center;
     background-size: cover;
     z-index: 12;
     overflow: hidden;
@@ -7652,8 +7648,6 @@ button {
     position: relative;
     width: 24px;
     height: 24px;
-    background: url(./assets/images/3a14efc5-a595-4b85-995b-52c1395f7e43.png)
-    no-repeat center;
     background-size: cover;
     z-index: 15;
     overflow: hidden;
@@ -7741,8 +7735,7 @@ button {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(./assets/images/26597ce1-a874-4284-8dde-b33bbff96abd.png)
-    no-repeat center;
+
     background-size: 100% 100%;
     z-index: 58;
 }
@@ -7767,8 +7760,6 @@ button {
     height: 20px;
     top: 0;
     left: 0;
-    background: url(./assets/images/62fd72e0-37c7-4aea-a4ec-ce146476066f.png)
-    no-repeat center;
     background-size: cover;
     z-index: 61;
 }
@@ -7793,8 +7784,6 @@ button {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(./assets/images/b37d271c-4219-44c6-a76f-8bb679a2fbcb.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 64;
 }
@@ -7911,3 +7900,311 @@ button {
     background-size: 100% 100%;
     z-index: 54;
 }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin: 0 0 0 386px;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 39;
+    border-radius: 5px;
+}
+.huge-icon-close {
+    flex-shrink: 0;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    z-index: 40;
+    overflow: hidden;
+}
+.remove {
+    position: relative;
+    width: 7.489px;
+    height: 7.489px;
+    margin: 5.255px 0 0 5.255px;
+    z-index: 41;
+}
+.union-close {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+    z-index: 42;
+}
+.order-place-successfully {
+    position: relative;
+    width: 420px;
+    height: 674px;
+    margin: 10px 0 0 0;
+    background: #ffffff;
+    border: 1px solid rgba(165, 169, 172, 0.2);
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 8px 8px 0 rgba(16, 24, 40, 0.02);
+}
+.frame-welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 380px;
+    margin: 20px 0 0 20px;
+    z-index: 1;
+}
+.welcome-back-fabiana {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    min-width: 0;
+    height: 42px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+}
+.welcome-back-fabiana-1 {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    min-width: 0;
+    height: 30px;
+    color: #a4a8ac;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+}
+.frame-2-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 30px;
+    position: relative;
+    width: 380px;
+    margin: 17px 0 0 20px;
+    z-index: 4;
+}
+.frame-3-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    z-index: 5;
+}
+.frame-4-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 16px;
+    position: relative;
+    z-index: 6;
+}
+.input-login {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    height: 80px;
+    font-size: 0px;
+    z-index: 7;
+}
+.label-login {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 2px 0 0 0;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+}
+.textbox-login {
+    position: relative;
+    width: 380px;
+    height: 56px;
+    margin: 2px 0 0 0;
+    border: 1px solid #1c4e8e;
+    z-index: 8;
+    border-radius: 10px;
+}
+.text-login {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 12px;
+    right: 15px;
+    left: 15px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+}
+.input-5-login {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    height: 80px;
+    font-size: 0px;
+    z-index: 11;
+}
+.label-6-login {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 2px 0 0 0;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+}
+.text-box-login {
+    position: relative;
+    width: 380px;
+    height: 56px;
+    margin: 2px 0 0 0;
+    border: 1px solid #1c4e8e;
+    z-index: 12;
+    border-radius: 10px;
+}
+.edit-text-login {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 12px;
+    right: 15px;
+    left: 15px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 13;
+}
+/*.frame-7 {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    align-self: stretch;*/
+/*    flex-wrap: nowrap;*/
+/*    flex-shrink: 0;*/
+/*    gap: 30px;*/
+/*    position: relative;*/
+/*    z-index: 15;*/
+/*}*/
+/*.checkbox {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    flex-wrap: nowrap;*/
+/*    flex-shrink: 0;*/
+/*    gap: 10px;*/
+/*    position: relative;*/
+/*    width: 171px;*/
+/*    padding: 0 16px 0 0;*/
+/*    z-index: 16;*/
+/*}*/
+/*.state {*/
+/*    flex-shrink: 0;*/
+/*    position: relative;*/
+/*    width: 24px;*/
+/*    height: 24px;*/
+/*    z-index: 17;*/
+/*    overflow: hidden;*/
+/*}*/
+/*.subtract {*/
+/*    position: relative;*/
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    margin: 2px 0 0 2px;*/
+/*    background-size: 100% 100%;*/
+/*    z-index: 18;*/
+/*}*/
+/*.remember-me {*/
+/*    flex-shrink: 0;*/
+/*    flex-basis: auto;*/
+/*}*/
+
