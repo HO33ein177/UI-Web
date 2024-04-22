@@ -291,3 +291,34 @@ button {
     height: 18.167px;
     margin: 0.92px 0 0 1.75px;
 }
+
+.trash-button{
+    position: relative;
+
+}
+
+.view-cart{
+    position: relative;
+    width: 312px;
+    height: 56px;
+    background-color: #1c4e8e;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.view-cart-text{
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+}
+
+.checkout-button{
+    position: relative;
+    width: 312px;
+    height: 56px;
+    background-color: #1c4e8e;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.checkout-text{
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+}
