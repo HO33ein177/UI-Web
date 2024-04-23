@@ -218,16 +218,16 @@ button {
     right: 0;
     z-index: 28;
 }
-.frame-7 {
-    display: flex;
-    align-items: flex-start;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 20px;
-    position: relative;
-    width: 112px;
-    z-index: 29;
-}
+/*.frame-7-i {*/
+/*    display: flex;*/
+/*    align-items: flex-start;*/
+/*    flex-wrap: nowrap;*/
+/*    flex-shrink: 0;*/
+/*    gap: 20px;*/
+/*    position: relative;*/
+/*    width: 112px;*/
+/*    z-index: 29;*/
+/*}*/
 .huge-icon-search {
     flex-shrink: 0;
     position: relative;
@@ -346,7 +346,7 @@ button {
     height: 16px;
     top: 0;
     left: 0;
-    background: url(img_6.png)
+    background: url(img_11.png)
     no-repeat center;
     background-size: cover;
     z-index: 39;
@@ -1243,6 +1243,7 @@ button {
     background: #bebec5;
     z-index: 28;
     border-radius: 4px;
+    cursor: pointer;
 }
 .rectangle-b {
     flex-shrink: 0;
@@ -1252,6 +1253,8 @@ button {
     background: #2f4ebe;
     z-index: 29;
     border-radius: 4px;
+    cursor: pointer;
+
 }
 .rectangle-c {
     flex-shrink: 0;
@@ -1261,6 +1264,8 @@ button {
     background: #0f1216;
     z-index: 30;
     border-radius: 4px;
+    cursor: pointer;
+
 }
 .rectangle-d {
     flex-shrink: 0;
@@ -1270,6 +1275,8 @@ button {
     background: #5d2fbe;
     z-index: 31;
     border-radius: 4px;
+    cursor: pointer;
+
 }
 
 
@@ -1370,6 +1377,7 @@ button {
     border-radius: 10px 10px 10px 10px;
     width: 300px;
     height: 50px;
+    cursor: pointer;
 }
 
 
@@ -3370,4 +3378,734 @@ button {
     no-repeat center;
     background-size: 100% 100%;
     z-index: 63;
+}
+
+
+
+
+
+
+#login-modal {
+    position: fixed;
+    right: 500px;
+    bottom: 50px;
+    margin: 0 auto;
+    z-index: 2000;
+    /*filter: blur(8px);*/
+    /*-webkit-filter: blur(8px);*/
+    display: none;
+}
+.button-login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin: 0 0 0 386px;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 39;
+    border-radius: 5px;
+}
+.huge-icon-login {
+    flex-shrink: 0;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    z-index: 40;
+    overflow: hidden;
+}
+.remove-login {
+    position: relative;
+    width: 7.489px;
+    height: 7.489px;
+    margin: 5.255px 0 0 5.255px;
+    z-index: 41;
+}
+.union-login {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+    z-index: 42;
+}
+.order-place-successfully-login {
+    position: relative;
+    width: 420px;
+    height: 674px;
+    margin: 10px 0 0 0;
+    background: #ffffff;
+    border: 1px solid rgba(165, 169, 172, 0.2);
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 8px 8px 0 rgba(16, 24, 40, 0.02);
+}
+.frame-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 380px;
+    margin: 20px 0 0 20px;
+    z-index: 1;
+}
+.welcome-back-fabiana {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    min-width: 0;
+    height: 42px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+}
+.welcome-back-fabiana-1 {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    min-width: 0;
+    height: 30px;
+    color: #a4a8ac;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+}
+.frame-2-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 30px;
+    position: relative;
+    width: 380px;
+    margin: 17px 0 0 20px;
+    z-index: 4;
+}
+.frame-3-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    z-index: 5;
+}
+.frame-4-login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 16px;
+    position: relative;
+    z-index: 6;
+}
+.input-login-form {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    height: 80px;
+    font-size: 0px;
+    z-index: 7;
+}
+.label-login-form {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 2px 0 0 0;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+}
+.textbox-login {
+    position: relative;
+    width: 380px;
+    height: 56px;
+    margin: 2px 0 0 0;
+    border: 1px solid #1c4e8e;
+    z-index: 8;
+    border-radius: 10px;
+}
+.text-login-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 12px;
+    right: 15px;
+    left: 15px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+}
+.input-5-login-form {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    height: 80px;
+    font-size: 0px;
+    z-index: 11;
+}
+.label-6-login-form {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 2px 0 0 0;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+}
+.text-box-login-form {
+    position: relative;
+    width: 380px;
+    height: 56px;
+    margin: 2px 0 0 0;
+    border: 1px solid #1c4e8e;
+    z-index: 12;
+    border-radius: 10px;
+}
+.edit-text-login-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 12px;
+    right: 15px;
+    left: 15px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 13;
+}
+.frame-7-icons-login {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 20px;
+    position: relative;
+    width: 112px;
+    z-index: 29;
+}
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 171px;
+    padding: 0 16px 0 0;
+    z-index: 16;
+}
+.state {
+    flex-shrink: 0;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    z-index: 17;
+    overflow: hidden;
+}
+.subtract {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 2px;
+    background-size: 100% 100%;
+    z-index: 18;
+}
+.remember-me {
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+
+.login-button-form{
+    position: relative;
+    width: 312px;
+    height: 56px;
+    left: 32px;
+    background-color: #1c4e8e;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.login-button-text-form{
+    color: #fefefe;
+    font-family: Montserrat, var(--default-font-family);
+}
+
+.register-button-login-form{
+    position: relative;
+    width: 312px;
+    height: 56px;
+    left: 32px;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.register-button-text-login{
+    color: #1c4e8e;
+    font-family: Montserrat, var(--default-font-family);
+    border-color: #1c4e8e;
+}
+
+.google-login-form{
+    position: relative;
+    width: 312px;
+    height: 56px;
+    left: 50px;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.google-signIn-login-form{
+    color: #1c4e8e;
+    font-family: Montserrat, var(--default-font-family);
+    border-color: #1c4e8e;
+}
+
+.apple-login-form{
+    position: relative;
+    width: 312px;
+    height: 56px;
+    left: 50px;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.apple-signIn-login-form{
+    color: #1c4e8e;
+    font-family: Montserrat, var(--default-font-family);
+    border-color: #1c4e8e;
+}
+
+.or-login-with-2-login-form{
+    position: relative;
+    left: 150px;
+}
+
+
+
+.button-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    width: 98px;
+    height: 50px;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+    background: #1c4e8e;
+    border: none;
+    z-index: 41;
+    border-radius: 10px;
+}
+#frame-7{
+    position: absolute;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-container-register {
+    position: relative;
+    width: 420px;
+    height: 752px;
+    margin: 0 auto;
+}
+.button-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 34px;
+    height: 34px;
+    margin: 0 0 0 386px;
+    padding: 20px 20px 20px 20px;
+    cursor: pointer;
+    background: #ffffff;
+    border: none;
+    z-index: 40;
+    border-radius: 5px;
+}
+.huge-icon-register {
+    flex-shrink: 0;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    z-index: 41;
+    overflow: hidden;
+}
+.remove-register {
+    position: relative;
+    width: 7.489px;
+    height: 7.489px;
+    margin: 5.255px 0 0 5.255px;
+    z-index: 42;
+}
+.union-register {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+    z-index: 43;
+}
+.order-place-successfully-register {
+    position: relative;
+    width: 420px;
+    height: 708px;
+    margin: 10px 0 0 0;
+    background: #ffffff;
+    border: 1px solid rgba(165, 169, 172, 0.2);
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 8px 8px 0 rgba(16, 24, 40, 0.02);
+}
+.frame-register {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 380px;
+    margin: 20px 0 0 20px;
+    z-index: 1;
+}
+.welcomeback-fabiana{
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    min-width: 0;
+    height: 42px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 2;
+}
+.welcomeback-fabiana-1 {
+    align-self: stretch;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    min-width: 0;
+    height: 30px;
+    color: #a4a8ac;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+}
+.frame-2-register {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 30px;
+    position: relative;
+    width: 380px;
+    margin: 17px 0 0 20px;
+    z-index: 4;
+}
+.frame-3-register {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 10px;
+    position: relative;
+    min-width: 0;
+    z-index: 5;
+}
+.frame-4-register {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 16px;
+    position: relative;
+    z-index: 6;
+}
+.input-register {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    height: 80px;
+    font-size: 0px;
+    z-index: 7;
+}
+.label-register {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 2px 0 0 0;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+}
+.textbox-register {
+    position: relative;
+    width: 380px;
+    height: 56px;
+    margin: 2px 0 0 0;
+    border: 1px solid #1c4e8e;
+    z-index: 8;
+    border-radius: 10px;
+}
+.text-register {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 12px;
+    right: 15px;
+    left: 15px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+}
+.input-5-register {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    height: 80px;
+    font-size: 0px;
+    z-index: 11;
+}
+.label-6-register {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 2px 0 0 0;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+}
+.text-box-register {
+    position: relative;
+    width: 380px;
+    height: 56px;
+    margin: 2px 0 0 0;
+    border: 1px solid #1c4e8e;
+    z-index: 12;
+    border-radius: 10px;
+}
+.text-7-register {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 12px;
+    right: 15px;
+    left: 15px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 13;
+}
+.input-8-register {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    height: 80px;
+    font-size: 0px;
+    z-index: 15;
+}
+.label-9-register {
+    display: block;
+    position: relative;
+    height: 20px;
+    margin: 2px 0 0 0;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 18;
+}
+.text-box-a-register {
+    position: relative;
+    width: 380px;
+    height: 56px;
+    margin: 2px 0 0 0;
+    border: 1px solid #1c4e8e;
+    z-index: 16;
+    border-radius: 10px;
+}
+.text-b-register {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 30px;
+    top: 12px;
+    right: 15px;
+    left: 15px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+}
+
+
+.frame-e-register{
+    position: relative;
+    width: 312px;
+    height: 56px;
+    left: 25px;
+    background-color: #1c4e8e;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.button-register-register{
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
+}
+
+
+.or-login-with-register{
+    position: relative;
+    left: 100px;
+}
+
+.button-13-register{
+    position: relative;
+    width: 312px;
+    height: 56px;
+    left: 45px;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.login-with-google-register {
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+}
+
+.button-15-register{
+    position: relative;
+    width: 312px;
+    height: 56px;
+    left: 45px;
+    background-color: #ffffff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.login-with-apple-register{
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+}
+
+#register-modal {
+    position: fixed;
+    right: 500px;
+    bottom: 30px;
+    margin: 0 auto;
+    z-index: 2000;
+    /*filter: blur(8px);*/
+    /*-webkit-filter: blur(8px);*/
+    display: none;
 }
