@@ -271,6 +271,7 @@ button {
     height: 24px;
     z-index: 34;
     overflow: hidden;
+    cursor: pointer;
 }
 .rectangle-cart {
     position: relative;
@@ -1344,6 +1345,7 @@ button {
     position: relative;
     width: 1140px;
     margin: 0 auto;
+
     /*display: none;*/
 }
 .frame-comments {
@@ -1369,6 +1371,7 @@ button {
     text-align: left;
     white-space: nowrap;
     z-index: 2;
+    cursor: pointer;
 }
 .additional-information-comments {
     flex-shrink: 0;
@@ -1383,6 +1386,7 @@ button {
     text-align: left;
     white-space: nowrap;
     z-index: 3;
+    cursor: pointer;
 }
 .reviews-1-comments {
     flex-shrink: 0;
@@ -1397,6 +1401,7 @@ button {
     text-align: left;
     white-space: nowrap;
     z-index: 4;
+    cursor: pointer;
 }
 .rectangle-comments {
     flex-shrink: 0;
@@ -4172,6 +4177,7 @@ button {
     line-height: 30px;
     text-align: left;
     white-space: nowrap;
+    cursor: pointer;
     z-index: 2;
 }
 .additional-information-1-details {
@@ -4187,6 +4193,7 @@ button {
     text-align: left;
     white-space: nowrap;
     z-index: 3;
+    cursor: pointer;
 }
 .reviews-details {
     flex-shrink: 0;
@@ -4200,6 +4207,7 @@ button {
     line-height: 30px;
     text-align: left;
     white-space: nowrap;
+    cursor: pointer;
     z-index: 4;
 }
 .rectangle-details {
@@ -6835,6 +6843,7 @@ button {
     text-align: left;
     white-space: nowrap;
     z-index: 2;
+    cursor: pointer;
 }
 .Additional-Information{
     flex-shrink: 0;
@@ -6849,6 +6858,7 @@ button {
     text-align: left;
     white-space: nowrap;
     z-index: 3;
+    cursor: pointer;
 }
 .descriptions-reviews{
     flex-shrink: 0;
@@ -6863,6 +6873,7 @@ button {
     text-align: left;
     white-space: nowrap;
     z-index: 4;
+    cursor: pointer;
 }
 .long-text-description {
     flex-shrink: 0;
@@ -9136,4 +9147,315 @@ button {
     /*filter: blur(8px);*/
     /*-webkit-filter: blur(8px);*/
     display: none;
+}
+
+
+
+#miniCart-modal {
+    position: fixed;
+    bottom: 10px;
+    left: 1100px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 8px 8px 0 rgba(16, 24, 40, 0.02);
+    z-index: 10000;
+    border-radius: 10px 10px 10px 10px;
+    display: none;
+
+}
+.mini-cart-items-mini-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 312px;
+    height: 730px;
+    padding: 0px 25px 15px;
+    border: solid 2px grey;
+
+}
+.frame-mini-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 30px;
+    position: relative;
+    width: 312px;
+    z-index: 1;
+}
+.cart-items-mini-cart {
+    flex-shrink: 0;
+    position: relative;
+    width: 233px;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 2;
+}
+.you-have {
+    position: relative;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.text-2-mini-cart {
+    position: relative;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+.in-your-cart {
+    position: relative;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+.frame-1-mini-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 20px;
+    position: relative;
+    width: 312px;
+    z-index: 3;
+}
+.empty-mini-cart {
+    flex-shrink: 0;
+    position: relative;
+    width: 312px;
+    height: 91px;
+    z-index: 4;
+}
+.flex-row-mini-cart {
+    position: relative;
+    width: 312px;
+    height: 72px;
+    margin: 0 0 0 0;
+    z-index: 10;
+}
+.group-mini-cart {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    z-index: 5;
+}
+.apple-iphone-pro-mini-cart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 80px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+}
+.price-mini-cart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 25px;
+    left: 80px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+}
+.quantity-mini-cart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 48px;
+    left: 80px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+}
+.huge-icon-trash-mini-cart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50px;
+    left: 292px;
+    z-index: 10;
+    overflow: hidden;
+}
+.vector-mini-cart {
+    position: relative;
+    width: 16.5px;
+    height: 18.167px;
+    margin: 0.92px 0 0 1.75px;
+    background-size: 100% 100%;
+    z-index: 11;
+}
+.rectangle-mini-cart {
+    position: relative;
+    width: 312px;
+    height: 1px;
+    margin: 18px 0 0 0;
+    background: rgba(165, 169, 172, 0.2);
+    z-index: 6;
+}
+.wrapper-4-mini-cart {
+    flex-shrink: 0;
+    position: relative;
+    width: 312px;
+    height: 91px;
+    z-index: 12;
+}
+.flex-row-a-mini-cart {
+    position: relative;
+    width: 312px;
+    height: 72px;
+    margin: 0 0 0 0;
+    z-index: 18;
+}
+.group-2-mini-cart {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background: url(iphone14progold2.jpg);
+    z-index: 13;
+}
+.asus-rog-delta-s-mini-cart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 80px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 15;
+}
+.dollar-amount-mini-cart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 25px;
+    left: 80px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 16;
+}
+.quantity-3-mini-cart {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 24px;
+    top: 48px;
+    left: 80px;
+    color: #0f1216;
+    font-family: Montserrat, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+}
+.trash-icon-mini-cart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50px;
+    left: 292px;
+    z-index: 18;
+    overflow: hidden;
+}
+.vector-4-mini-cart {
+    position: relative;
+    width: 16.5px;
+    height: 18.167px;
+    margin: 0.92px 0 0 1.75px;
+}
+
+.trash-button-mini-cart{
+    position: relative;
+
+}
+
+.view-cart-mini-cart{
+    position: relative;
+    width: 312px;
+    height: 56px;
+    background-color: #eaeaea;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.view-cart-text-mini-cart{
+    color: #000000;
+    font-family: Montserrat, var(--default-font-family);
+}
+
+.checkout-button-mini-cart{
+    position: relative;
+    width: 312px;
+    height: 56px;
+    background-color: #1c4e8e;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.checkout-text-mini-cart{
+    color: #ffffff;
+    font-family: Montserrat, var(--default-font-family);
 }

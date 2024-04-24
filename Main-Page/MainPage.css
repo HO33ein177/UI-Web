@@ -987,9 +987,9 @@ button {
     width: 79.25%;
     height: 79.25%;
     top: 20.75%;
-    left: 20.75%;
+    left: 0px;
     opacity: 0.6;
-    z-index: 297;
+    z-index: 298;
 }
 .path-group-36 {
     position: absolute;
@@ -4655,8 +4655,7 @@ button {
     width: 201.784px;
     height: 230px;
     margin: 0 0 0 14px;
-    background: url(./assets/images/e836786f6b0750bf955af775638f6312fcbfd024.png)
-    no-repeat center;
+    background: url('/Image/lg-tv.webp');
     background-size: cover;
     z-index: 534;
 }
