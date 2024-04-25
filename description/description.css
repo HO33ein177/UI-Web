@@ -2907,7 +2907,7 @@ button {
     z-index: 2000;
     /*filter: blur(8px);*/
     /*-webkit-filter: blur(8px);*/
-    /*display: none;*/
+    display: none;
 }
 .button-login-form {
     display: flex;

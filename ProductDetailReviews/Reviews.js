@@ -78,21 +78,31 @@ const color2Button = document.getElementById("color-2")
 const color3Button = document.getElementById("color-3")
 const color4Button = document.getElementById("color-4")
 const priceTage = document.getElementById("price-tag")
+const image = document.getElementById("iphone-image")
 
 color1Button.addEventListener("click",()=>{
     priceTage.innerHTML = "$1499.00"
+    image.style.background = 'url(14prosilver.jpg)'
+    image.style.backgroundSize = 'cover'
+
 })
 
 color2Button.addEventListener("click",()=>{
     priceTage.innerHTML = "$2499.00"
+    image.style.background = 'url(iphone14progold.jpg)'
+    image.style.backgroundSize = 'cover'
 })
 
 color3Button.addEventListener("click",()=>{
     priceTage.innerHTML = "$1799.00"
+    image.style.background = 'url(14problack.jpg)'
+    image.style.backgroundSize = 'cover'
 })
 
 color4Button.addEventListener("click",()=>{
     priceTage.innerHTML = "$2499.00"
+    image.style.background = 'url(14propurple.jpg)'
+    image.style.backgroundSize = 'cover'
 })
 
 const addToCart = document.getElementById("button-add-to-cart")
@@ -113,5 +123,56 @@ miniCartCloseButton.addEventListener("click",()=>{
 })
 
 
+const fiveStar = document.getElementById("5star")
+fiveStar.addEventListener("click",()=>{
+    console.log(5)
+})
+const fiveStarOne = document.getElementById("5star-1")
+fiveStarOne.addEventListener("click",()=>{
+    console.log(5)
+})
+const fiveStarTwo = document.getElementById("5star-2")
+fiveStarTwo.addEventListener("click",()=>{
+    console.log(5)
+})
+const fiveStarThree = document.getElementById("5star-3")
+fiveStarThree.addEventListener("click",()=>{
+    console.log(5)
+})
+const fiveStarFour = document.getElementById("5star-4")
+fiveStarFour.addEventListener("click",()=>{
+    console.log(5)
+})
 
+const FourStar = document.getElementById("4star")
+FourStar.addEventListener("click",()=>{
+    console.log(4)
+})
+
+const ThreeStar = document.getElementById("3star")
+ThreeStar.addEventListener("click",()=>{
+    console.log(3)
+})
+
+const TwoStar = document.getElementById("2star")
+TwoStar.addEventListener("click",()=>{
+    console.log(2)
+})
+
+const oneStar = document.getElementById("1star")
+oneStar.addEventListener("click",()=>{
+    console.log(1)
+})
+
+const likeButton = document.getElementById("likeButton")
+const blackHeart = document.getElementById("blackHeart")
+likeButton.addEventListener("click",()=>{
+    if (likeButton.style.backgroundColor === 'white'){
+        blackHeart.style.background = 'none'
+        likeButton.style.background = 'url(redheart.png)'
+        likeButton.style.background = 'cover'
+    }
+    else
+        likeButton.style.background = 'white'
+})
 

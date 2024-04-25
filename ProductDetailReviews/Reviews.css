@@ -155,8 +155,6 @@ button {
     width: 21.5px;
     height: 21.5px;
     margin: 1.25px 0 0 1.25px;
-    background: url(./assets/images/943b3cd3-578e-4568-90bb-2e567da1627b.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 24;
 }
@@ -254,7 +252,7 @@ button {
     z-index: 32;
     overflow: hidden;
 }
-.vector {
+.vector-icon {
     position: relative;
     width: 21.5px;
     height: 19.5px;
@@ -306,8 +304,6 @@ button {
     position: relative;
     width: 4.5px;
     height: 4.5px;
-    background: url(./assets/images/c578eba7-5a63-44f8-9c7c-aa24f5d44b85.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 36;
 }
@@ -319,7 +315,7 @@ button {
     top: -5px;
     left: 102px;
     cursor: pointer;
-    font-size: 0px;
+    font-size: 0;
     background: transparent;
     border: none;
     z-index: 38;
@@ -417,8 +413,6 @@ button {
     height: 29.82%;
     top: 70.18%;
     left: 93.92%;
-    background: url(./assets/images/d3b58215-2c5c-41c0-a39e-f17134c71417.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 4;
 }
@@ -638,8 +632,6 @@ button {
     width: 4.583px;
     height: 9.583px;
     margin: 0px 0 0 0;
-    background: url(./assets/images/b37d2001-64f9-4656-a435-3bc9a0a023b1.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 7;
 }
@@ -671,8 +663,6 @@ button {
     width: 345.804px;
     height: 420px;
     margin: 68px 0 0 105px;
-    background: url(./assets/images/cb1067be-3ddd-465e-b06d-1b2777853873.png)
-    no-repeat center;
     background-size: cover;
     z-index: 47;
 }
@@ -759,8 +749,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/47381a7c-ff04-4204-b57f-ba134f6793cb.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 36;
 }
@@ -777,8 +765,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/ae3b06da-255f-473d-8d06-6c165fb6f1f9.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 38;
 }
@@ -795,8 +781,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/a0780e6f-b4b7-4ede-8c36-912f38026202.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 40;
 }
@@ -813,8 +797,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/2f0a2307-7c22-406d-b2bd-9c9fe839f83c.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 42;
 }
@@ -831,8 +813,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/4d14e12c-2c95-44a0-8a5b-666dc2b25096.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 44;
 }
@@ -1124,7 +1104,7 @@ button {
     position: relative;
     width: 36px;
     height: 36px;
-    background: #2f4ebe;
+    background: #be9d2f;
     z-index: 29;
     border-radius: 4px;
     cursor: pointer;
@@ -1278,9 +1258,9 @@ button {
     flex-wrap: nowrap;
     gap: 10px;
     position: absolute;
+    bottom: 150px;
     width: 56px;
     height: 56px;
-    top: 375px;
     left: 1084px;
     padding: 20px 20px 20px 20px;
     background: rgba(165, 169, 172, 0.05);
@@ -1290,16 +1270,16 @@ button {
 .huge-icon-health-outline {
     flex-shrink: 0;
     position: relative;
-    width: 24px;
-    height: 24px;
+    width: 40px;
+    height: 36px;
     z-index: 23;
     overflow: hidden;
 }
 
 .vector {
     position: relative;
-    width: 21.5px;
-    height: 19.5px;
+    width: 40px;
+    height: 36px;
     margin: 2.25px 0 0 1.25px;
     background: url(heart.png)
     no-repeat center;
@@ -1485,8 +1465,6 @@ button {
     position: relative;
     width: 50px;
     height: 50px;
-    background: url(./assets/images/2b3452b4-27e4-4b65-91b2-0b9dacb77de8.png)
-    no-repeat center;
     background-size: cover;
     z-index: 12;
     border-radius: 50%;
@@ -1538,8 +1516,6 @@ button {
     width: 16.667px;
     height: 16.667px;
     margin: 1.667px 0 0 1.667px;
-    background: url(./assets/images/a4d8e37b-85c9-4adc-96c4-12d4d9fe225b.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 17;
 }
@@ -1556,8 +1532,6 @@ button {
     width: 16.667px;
     height: 16.667px;
     margin: 1.667px 0 0 1.667px;
-    background: url(./assets/images/9211d3ca-5be5-4433-b212-6c04b7142aab.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 19;
 }
@@ -1574,8 +1548,6 @@ button {
     width: 16.667px;
     height: 16.667px;
     margin: 1.667px 0 0 1.667px;
-    background: url(./assets/images/faa8f918-8ef7-4d28-8977-149420603883.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 21;
 }
@@ -1592,8 +1564,6 @@ button {
     width: 16.667px;
     height: 16.667px;
     margin: 1.667px 0 0 1.667px;
-    background: url(./assets/images/6ec3f263-4fb7-4c8e-88b8-17cf806d9fb1.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 23;
 }
@@ -1610,8 +1580,6 @@ button {
     width: 16.667px;
     height: 16.667px;
     margin: 1.667px 0 0 1.667px;
-    background: url(./assets/images/71864285-6d25-4a17-88d9-8c56534a72ab.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 25;
 }
@@ -1777,8 +1745,6 @@ button {
     position: relative;
     width: 50px;
     height: 50px;
-    background: url(./assets/images/2e373d8c-ba82-4db4-b1be-fd6a39ceb884.png)
-    no-repeat center;
     background-size: cover;
     z-index: 36;
     border-radius: 50%;
@@ -1830,8 +1796,6 @@ button {
     width: 16.667px;
     height: 16.667px;
     margin: 1.667px 0 0 1.667px;
-    background: url(./assets/images/0781a646-1b5b-4ae6-b375-c3d80d83b177.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 41;
 }
@@ -1848,8 +1812,6 @@ button {
     width: 16.667px;
     height: 16.667px;
     margin: 1.667px 0 0 1.667px;
-    background: url(./assets/images/b2a1eaaf-8bc6-4639-bf0a-001fed0f1133.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 43;
 }
@@ -1866,8 +1828,6 @@ button {
     width: 16.667px;
     height: 16.667px;
     margin: 1.667px 0 0 1.667px;
-    background: url(./assets/images/814a27cd-884f-428b-b73b-f57471dae867.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 45;
 }
@@ -1884,8 +1844,6 @@ button {
     width: 16.667px;
     height: 16.667px;
     margin: 1.667px 0 0 1.667px;
-    background: url(./assets/images/543e4085-ef14-41ac-b07c-09c78b17c73a.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 47;
 }
@@ -1902,8 +1860,6 @@ button {
     width: 16.667px;
     height: 16.667px;
     margin: 1.667px 0 0 1.667px;
-    background: url(./assets/images/bb294232-d207-4984-9b1e-b29e57ecd3e1.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 49;
 }
@@ -2123,10 +2079,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/7a61f81c-a910-4bd5-8eaa-093dff51e81f.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 64;
+    cursor: pointer;
 }
 .rectangle-33 {
     flex-shrink: 0;
@@ -2158,10 +2115,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/1be9591e-f646-4c27-8882-9227037e5d77.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 68;
+    cursor: pointer;
 }
 .huge-icon-solid-star-37 {
     flex-shrink: 0;
@@ -2176,10 +2134,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/86a2a1eb-c993-4fc2-89b5-3ff98d73c6d6.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 70;
+    cursor: pointer;
 }
 .rectangle-39 {
     flex-shrink: 0;
@@ -2211,10 +2170,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/211bc14c-6070-48fd-ac4d-45e1b13a17b6.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 74;
+    cursor: pointer;
 }
 .huge-icon-interface-3c {
     flex-shrink: 0;
@@ -2229,10 +2189,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/33ce2382-4b67-472a-9e76-d3d9a1dd6738.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 76;
+    cursor: pointer;
 }
 .huge-icon-interface-3e {
     flex-shrink: 0;
@@ -2247,10 +2208,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/c58e16aa-18ee-45a5-91cc-3cb9e1bf0fee.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 78;
+    cursor: pointer;
 }
 .rectangle-40 {
     flex-shrink: 0;
@@ -2282,10 +2244,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/796c046b-63d3-4e22-bf63-7baa3d2d6b95.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 82;
+    cursor: pointer;
 }
 .huge-icon-interface-44 {
     flex-shrink: 0;
@@ -2300,10 +2263,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/f9dcd468-d587-48e3-9dda-d0370a8f279d.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 84;
+    cursor: pointer;
 }
 .huge-icon-interface-46 {
     flex-shrink: 0;
@@ -2318,10 +2282,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/137809b0-c374-45cf-9010-7ff700d73697.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 86;
+    cursor: pointer;
 }
 .huge-icon-interface-48 {
     flex-shrink: 0;
@@ -2336,10 +2301,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/8f3e37e4-771e-4bc7-bc33-5d54b5ea171e.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 88;
+    cursor: pointer;
 }
 .rectangle-4a {
     flex-shrink: 0;
@@ -2371,10 +2337,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/cb4f9f5d-48d4-4490-bf2c-15a253c845b6.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 92;
+    cursor: pointer;
 }
 .huge-icon-interface-4e {
     flex-shrink: 0;
@@ -2389,10 +2356,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/6aa8743f-7ae9-491f-bfc0-00f746bfc70a.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 94;
+    cursor: pointer;
 }
 .huge-icon-interface-50 {
     flex-shrink: 0;
@@ -2407,10 +2375,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/7198863f-3c9a-494a-99c3-0db6f0600a0f.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 96;
+    cursor: pointer;
 }
 .huge-icon-interface-52 {
     flex-shrink: 0;
@@ -2425,10 +2394,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/97c65253-3f57-44c9-9e2b-c1f3a3be7b0b.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 98;
+    cursor: pointer;
 }
 .huge-icon-interface-54 {
     flex-shrink: 0;
@@ -2443,10 +2413,11 @@ button {
     width: 17.664px;
     height: 17.671px;
     margin: 1.167px 0 0 1.168px;
-    background: url(./assets/images/6287047c-382e-4e55-8015-bbbd534039d1.png)
+    background: url(star.png)
     no-repeat center;
     background-size: 100% 100%;
     z-index: 100;
+    cursor: pointer;
 }
 .frame-56 {
     display: flex;
@@ -2507,6 +2478,8 @@ button {
     text-align: left;
     white-space: nowrap;
     z-index: 104;
+    outline: none;
+    border: none;
 }
 .input-57 {
     flex-shrink: 0;
@@ -2556,6 +2529,7 @@ button {
     text-align: left;
     white-space: nowrap;
     z-index: 108;
+    border: none;
 }
 .frame-5b {
     display: flex;
@@ -2609,6 +2583,7 @@ button {
     text-align: left;
     white-space: nowrap;
     z-index: 113;
+    border: none;
 }
 .drag-handle {
     position: relative;
@@ -2623,8 +2598,6 @@ button {
     height: 13.899px;
     right: 0;
     bottom: 0px;
-    background: url(./assets/images/534e5c89-1083-4cb9-9f52-c7ca4f51cfff.png)
-    no-repeat center;
     background-size: cover;
     z-index: 115;
 }
@@ -3360,8 +3333,6 @@ button {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(./assets/images/6ba3f30d-589a-4cd5-b4b4-0a9158a7b3ef.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 57;
 }
@@ -3424,6 +3395,10 @@ button {
     /*filter: blur(8px);*/
     /*-webkit-filter: blur(8px);*/
     display: none;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 8px 8px 0 rgba(16, 24, 40, 0.02);
+
+
 }
 .button-login-form {
     display: flex;
@@ -3449,6 +3424,8 @@ button {
     height: 18px;
     z-index: 40;
     overflow: hidden;
+    /*border-radius: 10px 10px 10px 10px;*/
+
 }
 .remove-login {
     position: relative;
@@ -5050,8 +5027,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/a3ddb7c5-f613-42c0-9b3c-b43903628abb.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 44;
 }
@@ -5068,8 +5043,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/f1ffb228-46fb-466c-ae4a-0a727850326a.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 46;
 }
@@ -5086,8 +5059,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/535cd0c4-f578-4f89-b0b0-fe97666764b9.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 48;
 }
@@ -5104,8 +5075,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/c6ffaa79-bb0c-45e5-b703-6ec5676a4ee3.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 50;
 }
@@ -5122,8 +5091,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/b0bf91d0-693f-4e3a-9c17-cbcba3faace5.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 52;
 }
@@ -6016,8 +5983,6 @@ button {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(./assets/images/6ba3f30d-589a-4cd5-b4b4-0a9158a7b3ef.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 57;
 }
@@ -6066,8 +6031,6 @@ button {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(./assets/images/535f3e6c-9a41-4fff-a1a5-8d4c1863c662.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 63;
 }
@@ -7390,8 +7353,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/a3ddb7c5-f613-42c0-9b3c-b43903628abb.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 44;
 }
@@ -7408,8 +7369,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/f1ffb228-46fb-466c-ae4a-0a727850326a.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 46;
 }
@@ -7426,8 +7385,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/535cd0c4-f578-4f89-b0b0-fe97666764b9.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 48;
 }
@@ -7444,8 +7401,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/c6ffaa79-bb0c-45e5-b703-6ec5676a4ee3.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 50;
 }
@@ -7462,8 +7417,6 @@ button {
     width: 20px;
     height: 20px;
     margin: 2px 0 0 2px;
-    background: url(./assets/images/b0bf91d0-693f-4e3a-9c17-cbcba3faace5.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 52;
 }
@@ -8364,8 +8317,6 @@ button {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(./assets/images/6ba3f30d-589a-4cd5-b4b4-0a9158a7b3ef.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 57;
 }
@@ -8390,8 +8341,6 @@ button {
     height: 20px;
     top: 0;
     left: 0;
-    background: url(./assets/images/0ad21c05-25ce-4dc5-8324-fd946fc0d170.png)
-    no-repeat center;
     background-size: cover;
     z-index: 60;
 }
@@ -8416,8 +8365,6 @@ button {
     height: 100%;
     top: 0;
     left: 0;
-    background: url(./assets/images/535f3e6c-9a41-4fff-a1a5-8d4c1863c662.png)
-    no-repeat center;
     background-size: 100% 100%;
     z-index: 63;
 }
