@@ -176,3 +176,13 @@ likeButton.addEventListener("click",()=>{
         likeButton.style.background = 'white'
 })
 
+const number = document.getElementById("number")
+function minus(){
+    if (number.innerHTML !== '0')
+        number.innerHTML--
+}
+
+function plus(){
+    number.innerHTML++
+}
+

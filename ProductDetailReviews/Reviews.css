@@ -164,7 +164,7 @@ button {
     flex-basis: auto;
     position: relative;
     height: 30px;
-    color: rgba(16, 19, 22, 0.2);
+    color: black;
     font-family: Montserrat, var(--default-font-family);
     font-size: 16px;
     font-weight: 400;
@@ -172,6 +172,7 @@ button {
     text-align: left;
     white-space: nowrap;
     z-index: 25;
+    border: none;
 }
 .button {
     display: flex;
@@ -1166,6 +1167,7 @@ button {
     margin: 16px 0 0 8px;
     z-index: 56;
     overflow: hidden;
+    cursor: pointer;
 }
 .minus {
     position: relative;
@@ -1212,6 +1214,7 @@ button {
     margin: 16px 0 0 8px;
     z-index: 59;
     overflow: hidden;
+    cursor: pointer;
 }
 .plus {
     position: relative;
@@ -2470,7 +2473,7 @@ button {
     top: 12px;
     right: 15px;
     left: 15px;
-    color: rgba(165, 169, 172, 0.8);
+    color: black;
     font-family: Montserrat, var(--default-font-family);
     font-size: 16px;
     font-weight: 400;
@@ -2521,7 +2524,7 @@ button {
     top: 12px;
     right: 15px;
     left: 15px;
-    color: rgba(165, 169, 172, 0.8);
+    color: black;
     font-family: Montserrat, var(--default-font-family);
     font-size: 16px;
     font-weight: 400;
@@ -2575,7 +2578,7 @@ button {
     position: relative;
     height: 30px;
     margin: 16px 0 0 16px;
-    color: rgba(165, 169, 172, 0.8);
+    color: black;
     font-family: Montserrat, var(--default-font-family);
     font-size: 16px;
     font-weight: 400;
