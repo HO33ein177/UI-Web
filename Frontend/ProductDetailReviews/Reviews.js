@@ -176,6 +176,17 @@ likeButton.addEventListener("click",()=>{
         likeButton.style.background = 'white'
 })
 
+function deleteButton(){
+    const productBox = document.getElementById("product-box")
+    productBox.style.display = 'none'
+}
+
+function deleteButton1(){
+    const productBoxOne = document.getElementById("product-box-1")
+    productBoxOne.style.display = 'none'
+}
+
+
 const number = document.getElementById("number")
 function minus(){
     if (number.innerHTML !== '0')
